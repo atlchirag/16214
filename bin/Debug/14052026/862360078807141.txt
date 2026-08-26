@@ -1,0 +1,161 @@
+5/14/2026 12:59:19 PM
+diff = 49.5112465683333 here
+5/14/2026 12:59:19 PM
+ATL862360078807141,$GPRMC,063948,V,,,,,,,140526,,,*19,#01111011000000,0.00,-70.00,92FE6E55,0.10,33,3.6,30,404,10,89d,abe520cATL8
+5/14/2026 12:59:20 PM
+inside the time checking section, route Id = 0
+5/14/2026 12:59:21 PM
+after Convert.ToDateTime(gpsTime).Year, route Id = 0
+5/14/2026 12:59:26 PM
+inside the tsession.RouteId == 0
+5/14/2026 12:59:40 PM
+qry = select r.Id,r.start_time_up,r.end_time_up,u.school_lat,u.school_lng,r.route_name 
+          from bs_route_master r, atltracking.dbo.tbl_users u where u.id = r.sys_user_id and r.sys_service_id = 87671 and '12:09:48' between start_time_up and end_time_up order by r.id descimei = 87671
+5/14/2026 12:59:44 PM
+outside dtroute(if condition) 
+5/14/2026 12:59:53 PM
+ here = 0
+5/14/2026 1:00:00 PM
+cc= 0
+5/14/2026 1:00:05 PM
+Message before fallback = NA
+5/14/2026 1:00:10 PM
+Message still NA, so fallback notification will be used.
+5/14/2026 6:08:10 PM
+diff = 154.82127485 here
+5/14/2026 6:08:10 PM
+ATL862360078807141,$GPRMC,100321,V,,,,,,,140526,,,*18,#01111011000001,0.00,-70.00,92FE6E55,0.10,33,3.7,31,404,10,89d,937b236ATLc
+5/14/2026 6:08:11 PM
+inside the time checking section, route Id = 0
+5/14/2026 6:08:12 PM
+after Convert.ToDateTime(gpsTime).Year, route Id = 0
+5/14/2026 6:08:14 PM
+inside the session.RouteId == 0
+5/14/2026 6:08:19 PM
+Route Query = 
+select top 1
+    r.Id,
+    r.start_time_up,
+    r.end_time_up,
+    u.school_lat,
+    u.school_lng,
+    r.route_name
+from newtrack.dbo.bs_route_master r
+inner join atltracking.dbo.tbl_users u
+    on u.id = r.sys_user_id
+where r.sys_service_id = 87673
+and '15:33:21' between r.start_time_up and r.end_time_up
+order by r.id desc service_id = 87673
+5/14/2026 6:08:21 PM
+Route Query Result Rows = 1
+5/14/2026 6:24:28 PM
+diff = 171.109067475 here
+5/14/2026 6:24:28 PM
+ATL862360078807141,$GPRMC,100321,V,2823.3247,N,07704.1851,E,0.0,0,140526,,,*18,#01111011000001,0.00,-70.00,92FE6E55,0.10,33,3.7,31,404,10,89d,937b236ATLc
+5/14/2026 6:24:28 PM
+inside the time checking section, route Id = 0
+5/14/2026 6:24:29 PM
+after Convert.ToDateTime(gpsTime).Year, route Id = 0
+5/14/2026 6:24:32 PM
+inside the session.RouteId == 0
+5/14/2026 6:24:34 PM
+Route Query = 
+select top 1
+    r.Id,
+    r.start_time_up,
+    r.end_time_up,
+    u.school_lat,
+    u.school_lng,
+    r.route_name
+from newtrack.dbo.bs_route_master r
+inner join atltracking.dbo.tbl_users u
+    on u.id = r.sys_user_id
+where r.sys_service_id = 87673
+and '15:33:21' between r.start_time_up and r.end_time_up
+order by r.id desc service_id = 87673
+5/14/2026 6:24:35 PM
+Route Query Result Rows = 1
+5/14/2026 6:49:53 PM
+diff = 196.533293136667 here
+5/14/2026 6:49:53 PM
+ATL862360078807141,$GPRMC,100321,V,2823.3247,N,07704.1851,E,0.0,0,140526,,,*18,#01111011000001,0.00,-70.00,92FE6E55,0.10,33,3.7,31,404,10,89d,937b236ATLc
+5/14/2026 6:49:54 PM
+inside the time checking section, route Id = 0
+5/14/2026 6:49:55 PM
+after Convert.ToDateTime(gpsTime).Year, route Id = 0
+5/14/2026 6:49:55 PM
+inside the session.RouteId == 0
+5/14/2026 6:49:57 PM
+Route Query = 
+select top 1
+    r.Id,
+    r.start_time_up,
+    r.end_time_up,
+    u.school_lat,
+    u.school_lng,
+    r.route_name
+from newtrack.dbo.bs_route_master r
+inner join atltracking.dbo.tbl_users u
+    on u.id = r.sys_user_id
+where r.sys_service_id = 87673
+and '15:33:21' between r.start_time_up and r.end_time_up
+order by r.id desc service_id = 87673
+5/14/2026 6:49:58 PM
+Route Query Result Rows = 1
+5/14/2026 6:50:03 PM
+RouteId = 4979, RouteName = R2 drop
+5/14/2026 6:50:09 PM
+Student Query = 
+select 
+    s.id,
+    s.student_name,
+    s.rf_id,
+    s.mobile_no1,
+    ms.pick_B,
+    ms.pick_D,
+    ms.drop_B,
+    ms.drop_D,
+    ms.id as msg_id
+from newtrack.dbo.bs_student_master_backup s
+inner join newtrack.dbo.bs_route_students rs
+    on rs.student_id = s.Id
+inner join newtrack.dbo.bs_msg_subscription ms
+    on s.id = ms.student_id
+where rs.route_id = 4979
+5/14/2026 6:50:10 PM
+Student Query Result Rows = 7
+5/14/2026 6:50:27 PM
+Student Loaded => RFID = 005feaa6, Mobile = 9582503179, Name = Aarna Agrawal
+5/14/2026 6:50:27 PM
+Student Loaded => RFID = 005bb92e, Mobile = 9582503179, Name = Aarav Agrawal
+5/14/2026 6:50:27 PM
+Student Loaded => RFID = 005cbf7a, Mobile = 8368696500, Name = Kairav
+5/14/2026 6:50:27 PM
+Student Loaded => RFID = 00642742, Mobile = 9319045360, Name = Heyansh
+5/14/2026 6:50:27 PM
+Student Loaded => RFID = 92fe6e55, Mobile = 7602350558, Name = Swastika
+5/14/2026 6:50:27 PM
+Student Loaded => RFID = , Mobile = 9953179441, Name = Aarav Tiwari
+5/14/2026 6:50:27 PM
+Student Loaded => RFID = 926d1065, Mobile = 9999259399, Name = Mihir
+5/14/2026 6:50:32 PM
+RFID Processing RouteId = 4979
+5/14/2026 6:50:34 PM
+RFID Match Debug => RFID = 92fe6e55, Matched = YES, Student = Swastika, RouteName = R2 drop, IsAtlTrackingDevice = True
+5/14/2026 6:50:39 PM
+Route Name = R2 drop
+5/14/2026 6:50:44 PM
+Distance From School Meter = 33.5514449867928
+5/14/2026 6:50:56 PM
+Message before fallback = Dear parent, your ward Swastika boarded from the Bus of Route R2 drop at 03:33 PM
+5/14/2026 6:51:00 PM
+is_msg_send = False
+5/14/2026 6:51:02 PM
+Message Subscription Update Query = update newtrack.dbo.bs_msg_subscription set drop_B = 1 where id = 69243
+5/14/2026 6:51:05 PM
+Attendance Insert Query = insert into newtrack.dbo.bs_attendance (rf_id,date_,gps_time,attendance_type_id,route_id) 
+values ('92fe6e55','2026-05-14','2026-05-14 10:03:21',3,4979)
+5/14/2026 6:51:10 PM
+Mobile Token Match Count = 1, Mobile = 7602350558
+5/14/2026 6:51:10 PM
+Before Notification => Mobile = 7602350558, Message = Dear parent, your ward Swastika boarded from the Bus of Route R2 drop at 03:33 PM, AUID = d0lTzxxWS6GzAUeVM3C6L7:APA91bFDFfq7IqnkmvQisoH4BZTB4j7q9AYjcjoLj_kq3xtkHFJb-2p8XGl6r5kjEX8-2xfyXEg5M2NzSAD8vzkEOz4ssDOtVLD2ep51cIT1DF056jr-lJY, IUID = 

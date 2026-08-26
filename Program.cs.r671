@@ -1,0 +1,104 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Configuration.Install;
+using System.Diagnostics;
+using System.Linq;
+using System.Reflection;
+using System.ServiceProcess;
+using System.Text;
+using SuperSocket.SocketBase.Config;
+using SuperSocket.SocketEngine;
+
+namespace GPSTrackerListeners.AtlantaNew
+{
+    class Program : ServiceBase
+    {
+        static void Main(string[] args)
+        {
+            var bootstrap = BootstrapFactory.CreateBootstrap();
+            bootstrap.Initialize();
+
+            var result = bootstrap.Start();
+            Console.Read();
+
+            if (args.Length > 0)
+            {
+                for (int ii = 0; ii < args.Length; ii++)
+                {
+                    switch (args[ii].ToUpper())
+                    {
+                        case "/I":
+                            InstallService();
+                            return;
+                        case "/U":
+                            UninstallService();
+                            return;
+                        default:
+                            break;
+                    }
+                }
+            }
+
+            else
+                System.ServiceProcess.ServiceBase.Run(new Program());
+
+        }
+
+        private static void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
+        {
+            string loggerMessage = DateTime.Now + Environment.NewLine +
+                                  "An unhandled exception has occured in method " + new StackTrace(((Exception)e.ExceptionObject), true).GetFrame(0).GetMethod().Name + " at line no." + new StackTrace(((Exception)e.ExceptionObject), true).GetFrame(0).GetFileLineNumber() + " : " + Environment.NewLine +
+                                 "Exception is: " + ((Exception)e.ExceptionObject).Message;
+            General.WriteToLogFile(loggerMessage, AppDomain.CurrentDomain.BaseDirectory, "exUn.txt");
+
+            General.SendSms("Alerts service crashed", "9013757900");
+            General.SendEmail("Alerts service crashed", loggerMessage, "appdev1@atlantasys.com");
+
+        }
+
+        protected override void OnStart(string[] args)
+        {
+
+            base.OnStart(args);
+            AppDomain.CurrentDomain.UnhandledException += new UnhandledExceptionEventHandler(CurrentDomain_UnhandledException);
+
+            var bootstrap = BootstrapFactory.CreateBootstrap();
+            bootstrap.Initialize();
+
+            var result = bootstrap.Start();
+        }
+
+        protected override void OnStop()
+        {
+            base.OnStop();
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            //clean your resources if you have to
+            base.Dispose(disposing);
+        }
+
+        private static void InstallService()
+        {
+            if (IsServiceInstalled())
+            {
+                UninstallService();
+            }
+
+            ManagedInstallerClass.InstallHelper(new string[] { Assembly.GetExecutingAssembly().Location });
+        }
+
+        private static bool IsServiceInstalled()
+        {
+            return ServiceController.GetServices().Any(s => s.ServiceName == General.ServiceName);
+        }
+
+        private static void UninstallService()
+        {
+
+            ManagedInstallerClass.InstallHelper(new string[] { "/u", Assembly.GetExecutingAssembly().Location });
+        }
+
+    }
+}

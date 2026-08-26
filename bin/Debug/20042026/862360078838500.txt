@@ -1,0 +1,226 @@
+4/20/2026 5:41:47 PM
+diff = 285.787900521667 here
+4/20/2026 5:41:48 PM
+ATL862360078838500,$GPRMC,072600,A,2833.7380,N,07727.1597,E,0.0,0,200426,,,*2D,#11111011000001,0.00,-70.00,00563279,1195.82,33,4.1,31,404,10,85e,972400bATLi
+4/20/2026 5:41:48 PM
+inside the time checking section, route Id = 0
+4/20/2026 5:41:48 PM
+after Convert.ToDateTime(gpsTime).Year, route Id = 0
+4/20/2026 5:41:50 PM
+inside the tsession.RouteId == 0
+4/20/2026 5:41:54 PM
+qry = select r.Id,r.start_time_up,r.end_time_up,u.school_lat,u.school_lng,r.route_name 
+          from bs_route_master r, users u where u.id = r.sys_user_id and r.sys_service_id = 68220 and '12:56:00' between start_time_up and end_time_up order by r.id descimei = 68220
+4/20/2026 5:42:20 PM
+outside dtroute(if condition) 
+4/20/2026 5:42:22 PM
+outside dtroute(if condition) 
+4/20/2026 5:42:23 PM
+RouteId =911
+4/20/2026 5:42:24 PM
+ here = 911
+4/20/2026 5:42:29 PM
+outside dtroute(if condition) 
+4/20/2026 5:42:31 PM
+routeidselect s.id,s.student_name, s.rf_id,s.mobile_no1,ms.pick_B,ms.pick_D,ms.drop_B,ms.drop_D,ms.id as msg_id from bs_student_master_backup s, bs_route_students rs,bs_msg_subscription ms 
+              where rs.student_id=s.Id and s.id=ms.student_id and  rs.route_id=911
+4/20/2026 5:42:50 PM
+student Rfidnullstudent.MobileNo8447767489
+4/20/2026 5:42:50 PM
+student Rfidnullstudent.MobileNo8447579603
+4/20/2026 5:42:50 PM
+student Rfidnullstudent.MobileNo9711147942
+4/20/2026 5:42:50 PM
+student Rfidnullstudent.MobileNo7838456124
+4/20/2026 5:42:50 PM
+student Rfidstudent.MobileNo9654516224
+4/20/2026 5:42:50 PM
+student Rfidb08d853astudent.MobileNo8527077469
+4/20/2026 5:42:50 PM
+student Rfidstudent.MobileNo7827812662
+4/20/2026 5:42:50 PM
+student Rfidstudent.MobileNo8448743260
+4/20/2026 5:42:50 PM
+student Rfidstudent.MobileNo8588825849
+4/20/2026 5:42:50 PM
+student Rfid8df7b1fbstudent.MobileNo9999842419
+4/20/2026 5:42:50 PM
+student Rfidnullstudent.MobileNo9212315538
+4/20/2026 5:42:50 PM
+student Rfidstudent.MobileNo9650496389
+4/20/2026 5:42:50 PM
+student Rfidstudent.MobileNo8800624341
+4/20/2026 5:42:50 PM
+student Rfid00563279student.MobileNo9540107082
+4/20/2026 5:42:50 PM
+student Rfid00507040student.MobileNo9599219755
+4/20/2026 5:42:50 PM
+student Rfid0088a278student.MobileNo9458888688
+4/20/2026 5:42:50 PM
+student Rfid005ec92dstudent.MobileNo8860371588
+4/20/2026 5:42:50 PM
+student Rfid0042adacstudent.MobileNo9711521729
+4/20/2026 5:42:50 PM
+student Rfid004fc1d2student.MobileNo9022239751
+4/20/2026 5:42:50 PM
+student Rfidstudent.MobileNo9718143476
+4/20/2026 5:42:50 PM
+student Rfidstudent.MobileNo9008677882
+4/20/2026 5:42:50 PM
+student Rfid008ab179student.MobileNo8800335267
+4/20/2026 5:42:53 PM
+cc= 911
+4/20/2026 5:43:00 PM
+========== RFID DEBUG START ==========
+4/20/2026 5:43:02 PM
+RFID = 00563279
+4/20/2026 5:43:03 PM
+Matched Student RFID = 00563279
+4/20/2026 5:43:03 PM
+Matched Student Name = MANDEEP SINGH RANA
+4/20/2026 5:43:04 PM
+RouteId = 911
+4/20/2026 5:43:12 PM
+RouteName = J-04 drop
+4/20/2026 5:43:13 PM
+AttendanceSubscription = NULL
+4/20/2026 5:43:16 PM
+Latitude = 28.5623, Longitude = 77.4526616666667
+4/20/2026 5:43:22 PM
+Distance from school (meters) = 1526.88648784156
+4/20/2026 5:43:24 PM
+========== RFID DEBUG END ==========
+4/20/2026 5:43:30 PM
+ route name J-04 drop
+4/20/2026 5:43:38 PM
+AttendanceSubscription
+4/20/2026 5:43:50 PM
+ message send is trueFalse
+4/20/2026 5:43:50 PM
+Iam here
+4/20/2026 5:43:50 PM
+inside try
+4/20/2026 5:43:50 PM
+checkingSystem.Data.EnumerableRowCollection`1[System.Data.DataRow]
+4/20/2026 5:43:50 PM
+checking xxd0lTzxxWS6GzAUeVM3C6L7:APA91bFDFfq7IqnkmvQisoH4BZTB4j7q9AYjcjoLj_kq3xtkHFJb-2p8XGl6r5kjEX8-2xfyXEg5M2NzSAD8vzkEOz4ssDOtVLD2ep51cIT1DF056jr-lJY
+4/20/2026 5:43:50 PM
+d0lTzxxWS6GzAUeVM3C6L7:APA91bFDFfq7IqnkmvQisoH4BZTB4j7q9AYjcjoLj_kq3xtkHFJb-2p8XGl6r5kjEX8-2xfyXEg5M2NzSAD8vzkEOz4ssDOtVLD2ep51cIT1DF056jr-lJY before noti mobile =9540107082 msg = Dear parent, your ward MANDEEP SINGH RANA just punched his/her RF card. 12:56 PM
+4/20/2026 5:43:50 PM
+checking xxsd0lTzxxWS6GzAUeVM3C6L7:APA91bFDFfq7IqnkmvQisoH4BZTB4j7q9AYjcjoLj_kq3xtkHFJb-2p8XGl6r5kjEX8-2xfyXEg5M2NzSAD8vzkEOz4ssDOtVLD2ep51cIT1DF056jr-lJY
+4/20/2026 5:58:23 PM
+diff = 302.393012621667 here
+4/20/2026 5:58:24 PM
+ATL862360078838500,$GPRMC,072600,A,2833.7380,N,07727.1597,E,0.0,0,200426,,,*2D,#11111011000001,0.00,-70.00,00563279,1195.82,33,4.1,31,404,10,85e,972400bATLi
+4/20/2026 5:58:24 PM
+inside the time checking section, route Id = 0
+4/20/2026 5:58:24 PM
+after Convert.ToDateTime(gpsTime).Year, route Id = 0
+4/20/2026 5:58:25 PM
+inside the tsession.RouteId == 0
+4/20/2026 5:58:26 PM
+qry = select r.Id,r.start_time_up,r.end_time_up,u.school_lat,u.school_lng,r.route_name 
+          from bs_route_master r, users u where u.id = r.sys_user_id and r.sys_service_id = 68220 and '12:56:00' between start_time_up and end_time_up order by r.id descimei = 68220
+4/20/2026 5:58:27 PM
+outside dtroute(if condition) 
+4/20/2026 5:58:29 PM
+outside dtroute(if condition) 
+4/20/2026 5:58:32 PM
+RouteId =911
+4/20/2026 5:58:34 PM
+ here = 911
+4/20/2026 5:58:37 PM
+outside dtroute(if condition) 
+4/20/2026 5:58:38 PM
+routeidselect s.id,s.student_name, s.rf_id,s.mobile_no1,ms.pick_B,ms.pick_D,ms.drop_B,ms.drop_D,ms.id as msg_id from bs_student_master_backup s, bs_route_students rs,bs_msg_subscription ms 
+              where rs.student_id=s.Id and s.id=ms.student_id and  rs.route_id=911
+4/20/2026 5:58:44 PM
+student Rfidnullstudent.MobileNo8447767489
+4/20/2026 5:58:48 PM
+student Rfidnullstudent.MobileNo8447579603
+4/20/2026 5:58:48 PM
+student Rfidnullstudent.MobileNo9711147942
+4/20/2026 5:58:48 PM
+student Rfidnullstudent.MobileNo7838456124
+4/20/2026 5:58:48 PM
+student Rfidstudent.MobileNo9654516224
+4/20/2026 5:58:48 PM
+student Rfidb08d853astudent.MobileNo8527077469
+4/20/2026 5:58:48 PM
+student Rfidstudent.MobileNo7827812662
+4/20/2026 5:58:48 PM
+student Rfidstudent.MobileNo8448743260
+4/20/2026 5:58:48 PM
+student Rfidstudent.MobileNo8588825849
+4/20/2026 5:58:48 PM
+student Rfid8df7b1fbstudent.MobileNo9999842419
+4/20/2026 5:58:48 PM
+student Rfidnullstudent.MobileNo9212315538
+4/20/2026 5:58:48 PM
+student Rfidstudent.MobileNo9650496389
+4/20/2026 5:58:48 PM
+student Rfidstudent.MobileNo8800624341
+4/20/2026 5:58:48 PM
+student Rfid00563279student.MobileNo9540107082
+4/20/2026 5:58:48 PM
+student Rfid00507040student.MobileNo9599219755
+4/20/2026 5:58:48 PM
+student Rfid0088a278student.MobileNo9458888688
+4/20/2026 5:58:48 PM
+student Rfid005ec92dstudent.MobileNo8860371588
+4/20/2026 5:58:48 PM
+student Rfid0042adacstudent.MobileNo9711521729
+4/20/2026 5:58:48 PM
+student Rfid004fc1d2student.MobileNo9022239751
+4/20/2026 5:58:48 PM
+student Rfidstudent.MobileNo9718143476
+4/20/2026 5:58:48 PM
+student Rfidstudent.MobileNo9008677882
+4/20/2026 5:58:48 PM
+student Rfid008ab179student.MobileNo8800335267
+4/20/2026 5:58:50 PM
+cc= 911
+4/20/2026 5:58:52 PM
+========== RFID DEBUG START ==========
+4/20/2026 5:58:52 PM
+RFID = 00563279
+4/20/2026 5:58:52 PM
+Matched Student RFID = 00563279
+4/20/2026 5:58:52 PM
+Matched Student Name = MANDEEP SINGH RANA
+4/20/2026 5:58:53 PM
+RouteId = 911
+4/20/2026 5:58:53 PM
+RouteName = J-04 drop
+4/20/2026 5:58:53 PM
+AttendanceSubscription = NULL
+4/20/2026 5:58:53 PM
+Latitude = 28.5623, Longitude = 77.4526616666667
+4/20/2026 5:59:00 PM
+Distance from school (meters) = 1526.88648784156
+4/20/2026 5:59:00 PM
+========== RFID DEBUG END ==========
+4/20/2026 5:59:01 PM
+ route name J-04 drop
+4/20/2026 5:59:10 PM
+AttendanceSubscription 
+4/20/2026 5:59:13 PM
+AttendanceSubscription 
+4/20/2026 5:59:21 PM
+Message before fallback = Dear parent, your ward MANDEEP SINGH RANA deboarded from the Bus of Route J-04 drop at 12:56 PM
+4/20/2026 5:59:30 PM
+ message send is trueFalse
+4/20/2026 5:59:31 PM
+Iam here
+4/20/2026 5:59:33 PM
+Iam here 1update bs_msg_subscription set drop_D = 1 where id=68419
+4/20/2026 5:59:35 PM
+inside try
+4/20/2026 5:59:37 PM
+checkingSystem.Data.EnumerableRowCollection`1[System.Data.DataRow]
+4/20/2026 5:59:37 PM
+checking xxd0lTzxxWS6GzAUeVM3C6L7:APA91bFDFfq7IqnkmvQisoH4BZTB4j7q9AYjcjoLj_kq3xtkHFJb-2p8XGl6r5kjEX8-2xfyXEg5M2NzSAD8vzkEOz4ssDOtVLD2ep51cIT1DF056jr-lJY
+4/20/2026 5:59:37 PM
+d0lTzxxWS6GzAUeVM3C6L7:APA91bFDFfq7IqnkmvQisoH4BZTB4j7q9AYjcjoLj_kq3xtkHFJb-2p8XGl6r5kjEX8-2xfyXEg5M2NzSAD8vzkEOz4ssDOtVLD2ep51cIT1DF056jr-lJY before noti mobile =9540107082 msg = Dear parent, your ward MANDEEP SINGH RANA deboarded from the Bus of Route J-04 drop at 12:56 PM
+4/20/2026 5:59:37 PM
+checking xxsd0lTzxxWS6GzAUeVM3C6L7:APA91bFDFfq7IqnkmvQisoH4BZTB4j7q9AYjcjoLj_kq3xtkHFJb-2p8XGl6r5kjEX8-2xfyXEg5M2NzSAD8vzkEOz4ssDOtVLD2ep51cIT1DF056jr-lJY

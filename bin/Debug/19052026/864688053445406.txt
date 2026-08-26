@@ -1,0 +1,74 @@
+19-05-2026 16:19:56
+diff = 1065246409.93666 here
+19-05-2026 16:19:57
+ATL864688053445406,$GPRMC,133417,V,2827.1083,N,07704.1851,E,0.0,0,104126,,,*18,#01111011000001,0.00,-70.00,92FE6E55,0.10,33,3.7,31,404,10,89d,937b236ATLc
+19-05-2026 16:19:57
+inside the time checking section, route Id = 0
+19-05-2026 16:20:00
+after Convert.ToDateTime(gpsTime).Year, route Id = 0
+19-05-2026 16:20:05
+inside the session.RouteId == 0
+19-05-2026 16:20:09
+Route Query = 
+select top 1
+    r.Id,
+    r.start_time_up,
+    r.end_time_up,
+    u.school_lat,
+    u.school_lng,
+    r.route_name
+from newtrack.dbo.bs_route_master r
+inner join atltracking.dbo.tbl_users u
+    on u.id = r.sys_user_id
+where r.sys_service_id = 124916
+and '16:20:00' between r.start_time_up and r.end_time_up
+order by r.id desc service_id = 124916
+19-05-2026 16:20:10
+Route Query Result Rows = 0
+19-05-2026 16:20:14
+RFID Processing RouteId = 0
+19-05-2026 16:20:16
+RFID Match Debug => RFID = 92fe6e55, Matched = NO, Student = NULL, RouteName = , IsAtlTrackingDevice = True
+19-05-2026 16:20:18
+Route Name = 
+19-05-2026 16:20:19
+Message before fallback = NA
+19-05-2026 16:20:20
+Message still NA, fallback notification will be used.
+19-05-2026 16:35:36
+diff = 1065246425.59725 here
+19-05-2026 16:35:36
+ATL864688053445406,$GPRMC,133417,V,2827.1083,N,07704.1851,E,0.0,0,113326,,,*18,#01111011000001,0.00,-70.00,92FE6E55,0.10,33,3.7,31,404,10,89d,937b236ATLc
+19-05-2026 16:35:36
+inside the time checking section, route Id = 0
+19-05-2026 16:35:37
+after Convert.ToDateTime(gpsTime).Year, route Id = 0
+19-05-2026 16:35:38
+inside the session.RouteId == 0
+19-05-2026 16:35:39
+Route Query = 
+select top 1
+    r.Id,
+    r.start_time_up,
+    r.end_time_up,
+    u.school_lat,
+    u.school_lng,
+    r.route_name
+from newtrack.dbo.bs_route_master r
+inner join atltracking.dbo.tbl_users u
+    on u.id = r.sys_user_id
+where r.sys_service_id = 124916
+and '16:35:37' between r.start_time_up and r.end_time_up
+order by r.id desc service_id = 124916
+19-05-2026 16:35:52
+Route Query Result Rows = 0
+19-05-2026 16:35:57
+RFID Processing RouteId = 0
+19-05-2026 16:35:58
+RFID Match Debug => RFID = 92fe6e55, Matched = NO, Student = NULL, RouteName = , IsAtlTrackingDevice = True
+19-05-2026 16:36:01
+Route Name = 
+19-05-2026 16:36:03
+Message before fallback = NA
+19-05-2026 16:36:05
+Message still NA, fallback notification will be used.

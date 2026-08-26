@@ -1,0 +1,529 @@
+D:\Projects\Desktop\SuperSocketATL\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.dll.config
+D:\Projects\Desktop\SuperSocketATL\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.dll
+D:\Projects\Desktop\SuperSocketATL\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\Projects\Desktop\SuperSocketATL\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.Common.dll
+D:\Projects\Desktop\SuperSocketATL\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketBase.dll
+D:\Projects\Desktop\SuperSocketATL\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketEngine.dll
+D:\Projects\Desktop\SuperSocketATL\GPSTrackerListeners.AtlantaNew\bin\Debug\log4net.dll
+D:\Projects\Desktop\SuperSocketATL\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.Common.pdb
+D:\Projects\Desktop\SuperSocketATL\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.Common.xml
+D:\Projects\Desktop\SuperSocketATL\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketBase.pdb
+D:\Projects\Desktop\SuperSocketATL\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketBase.xml
+D:\Projects\Desktop\SuperSocketATL\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketEngine.pdb
+D:\Projects\Desktop\SuperSocketATL\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketEngine.xml
+D:\Projects\Desktop\SuperSocketATL\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.dll
+D:\Projects\Desktop\SuperSocketATL\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\ATLANTA\Projects\Ganesh\TrackerListener\SqlServer\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.dll.config
+D:\ATLANTA\Projects\Ganesh\TrackerListener\SqlServer\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.dll
+D:\ATLANTA\Projects\Ganesh\TrackerListener\SqlServer\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\ATLANTA\Projects\Ganesh\TrackerListener\SqlServer\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\log4net.dll
+D:\ATLANTA\Projects\Ganesh\TrackerListener\SqlServer\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.Common.pdb
+D:\ATLANTA\Projects\Ganesh\TrackerListener\SqlServer\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.Common.xml
+D:\ATLANTA\Projects\Ganesh\TrackerListener\SqlServer\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketBase.pdb
+D:\ATLANTA\Projects\Ganesh\TrackerListener\SqlServer\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketBase.xml
+D:\ATLANTA\Projects\Ganesh\TrackerListener\SqlServer\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketEngine.pdb
+D:\ATLANTA\Projects\Ganesh\TrackerListener\SqlServer\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketEngine.xml
+D:\ATLANTA\Projects\Ganesh\TrackerListener\SqlServer\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csprojResolveAssemblyReference.cache
+D:\ATLANTA\Projects\Ganesh\TrackerListener\SqlServer\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.dll
+D:\ATLANTA\Projects\Ganesh\TrackerListener\SqlServer\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\ATLANTA\Projects\Ganesh\TrackerListener\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.dll
+D:\ATLANTA\Projects\Ganesh\TrackerListener\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\ATLANTA\Projects\Ganesh\TrackerListener\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.dll
+D:\ATLANTA\Projects\Ganesh\TrackerListener\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\Projects\Desktop\Atlanta\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.dll
+D:\Projects\Desktop\Atlanta\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\Projects\Desktop\Atlanta\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.Common.dll
+D:\Projects\Desktop\Atlanta\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketBase.dll
+D:\Projects\Desktop\Atlanta\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketEngine.dll
+D:\Projects\Desktop\Atlanta\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\log4net.dll
+D:\Projects\Desktop\Atlanta\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.Common.pdb
+D:\Projects\Desktop\Atlanta\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.Common.xml
+D:\Projects\Desktop\Atlanta\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketBase.pdb
+D:\Projects\Desktop\Atlanta\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketBase.xml
+D:\Projects\Desktop\Atlanta\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketEngine.pdb
+D:\Projects\Desktop\Atlanta\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketEngine.xml
+D:\Projects\Desktop\Atlanta\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csprojResolveAssemblyReference.cache
+D:\Projects\Desktop\Atlanta\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.dll
+D:\Projects\Desktop\Atlanta\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\Projects\Desktop\Atlanta\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.Util.dll
+D:\Projects\Desktop\Atlanta\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\MySql.Data.dll
+D:\Projects\Desktop\Atlanta\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.Util.pdb
+D:\ATLANTA\Projects\Ganesh\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.dll
+D:\ATLANTA\Projects\Ganesh\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\ATLANTA\Projects\Ganesh\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.Util.dll
+D:\ATLANTA\Projects\Ganesh\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.Util.pdb
+D:\ATLANTA\Projects\Ganesh\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketBase.xml
+D:\ATLANTA\Projects\Ganesh\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.dll
+D:\ATLANTA\Projects\Ganesh\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\ATLANTA\Projects\Ganesh\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csprojResolveAssemblyReference.cache
+D:\ATLANTA\Projects\Ganesh\TrackerListeners\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.dll
+D:\ATLANTA\Projects\Ganesh\TrackerListeners\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\ATLANTA\Projects\Ganesh\TrackerListeners\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.Util.dll
+D:\ATLANTA\Projects\Ganesh\TrackerListeners\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.Util.pdb
+D:\ATLANTA\Projects\Ganesh\TrackerListeners\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csprojResolveAssemblyReference.cache
+D:\ATLANTA\Projects\Ganesh\TrackerListeners\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.dll
+D:\ATLANTA\Projects\Ganesh\TrackerListeners\GPSTrackerListeners\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\ATLANTA\Projects\Ganesh\TrackerListeners\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.dll
+D:\ATLANTA\Projects\Ganesh\TrackerListeners\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\ATLANTA\Projects\Ganesh\TrackerListeners\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.Util.dll
+D:\ATLANTA\Projects\Ganesh\TrackerListeners\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\bin\Debug\log4net.dll
+D:\ATLANTA\Projects\Ganesh\TrackerListeners\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.Util.pdb
+D:\ATLANTA\Projects\Ganesh\TrackerListeners\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.dll
+D:\ATLANTA\Projects\Ganesh\TrackerListeners\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\ATLANTA\Projects\Ganesh\TrackerListeners\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2010\Projects\ATLANTA\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.dll
+D:\Visual Studio 2010\Projects\ATLANTA\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\Visual Studio 2010\Projects\ATLANTA\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.Util.dll
+D:\Visual Studio 2010\Projects\ATLANTA\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.Common.dll
+D:\Visual Studio 2010\Projects\ATLANTA\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketBase.dll
+D:\Visual Studio 2010\Projects\ATLANTA\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketEngine.dll
+D:\Visual Studio 2010\Projects\ATLANTA\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.Util.pdb
+D:\Visual Studio 2010\Projects\ATLANTA\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.Common.pdb
+D:\Visual Studio 2010\Projects\ATLANTA\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.Common.xml
+D:\Visual Studio 2010\Projects\ATLANTA\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketBase.pdb
+D:\Visual Studio 2010\Projects\ATLANTA\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketBase.xml
+D:\Visual Studio 2010\Projects\ATLANTA\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketEngine.pdb
+D:\Visual Studio 2010\Projects\ATLANTA\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketEngine.xml
+D:\Visual Studio 2010\Projects\ATLANTA\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2010\Projects\ATLANTA\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.dll
+D:\Visual Studio 2010\Projects\ATLANTA\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\ATLANTA\Projects\Ganesh\TrackerListeners\GPSTrackerListeners(trunk)\GPSTrackerListeners.AtlantaNew\bin\Debug\SuperSocket.SocketBase.xml
+D:\ATLANTA\Projects\Ganesh\SVN\TrackerListener\trunk\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\ATLANTA\Projects\Ganesh\SVN\TrackerListener\trunk\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.Util.dll
+D:\ATLANTA\Projects\Ganesh\SVN\TrackerListener\trunk\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.Util.pdb
+D:\ATLANTA\Projects\Ganesh\SVN\TrackerListener\trunk\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\ATLANTA\Projects\Ganesh\SVN\TrackerListener\trunk\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+D:\ATLANTA\Projects\Ganesh\SVN\TrackerListener\trunk\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+D:\ATLANTA\Projects\Ganesh\SVN\TrackerListener\trunk\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csprojResolveAssemblyReference.cache
+E:\Ganesh\TrackerListener\trunk\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+E:\Ganesh\TrackerListener\trunk\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.Util.dll
+E:\Ganesh\TrackerListener\trunk\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.Util.pdb
+E:\Ganesh\TrackerListener\trunk\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+E:\Ganesh\TrackerListener\trunk\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.dll
+E:\Ganesh\TrackerListener\trunk\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.dll
+E:\Ganesh\TrackerListener\trunk\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csprojResolveAssemblyReference.cache
+E:\Ganesh\SVN\ABCTRAQ\Listeners\Main\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+E:\Ganesh\SVN\ABCTRAQ\Listeners\Main\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.Util.pdb
+E:\Ganesh\SVN\ABCTRAQ\Listeners\Main\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csprojResolveAssemblyReference.cache
+E:\Ganesh\SVN\ABCTRAQ\Listeners\Main\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+E:\Ganesh\SVN\ABCTRAQ\Listeners\Main\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+E:\Ganesh\SVN\ABCTRAQ\Listeners\Main\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+E:\Ganesh\SVN\ABCTRAQ\Listeners\Main\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+D:\Abhishek Projects\SVN\Ganesh_Sir_Handover\Main\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+D:\Abhishek Projects\SVN\Ganesh_Sir_Handover\Main\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+D:\Abhishek Projects\SVN\Ganesh_Sir_Handover\Main\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\Abhishek Projects\SVN\Ganesh_Sir_Handover\Main\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+D:\Abhishek Projects\SVN\Ganesh_Sir_Handover\Main\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\Abhishek Projects\SVN\Listeners\Main\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+D:\Abhishek Projects\SVN\Listeners\Main\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+D:\Abhishek Projects\SVN\Listeners\Main\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\Abhishek Projects\SVN\Listeners\Main\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+D:\Abhishek Projects\SVN\Listeners\Main\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\Abhishek Projects\SVN\Listeners\Main\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.Util.pdb
+D:\Abhishek Projects\SVN\Listeners\Main\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csprojResolveAssemblyReference.cache
+D:\Abhishek Projects\SVN\Abhishek\Listeners_with_gprs_command\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+D:\Abhishek Projects\SVN\Abhishek\Listeners_with_gprs_command\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+D:\Abhishek Projects\SVN\Abhishek\Listeners_with_gprs_command\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\Abhishek Projects\SVN\Abhishek\Listeners_with_gprs_command\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+D:\Abhishek Projects\SVN\Abhishek\Listeners_with_gprs_command\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\Abhishek Projects\SVN\Abhishek\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+D:\Abhishek Projects\SVN\Abhishek\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+D:\Abhishek Projects\SVN\Abhishek\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\Abhishek Projects\SVN\Abhishek\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+D:\Abhishek Projects\SVN\Abhishek\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\Abhishek Projects\SVN\Abhishek\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csprojAssemblyReference.cache
+D:\Abhishek Projects\SVN\Abhishek\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CoreCompileInputs.cache
+D:\Abhishek Projects\SVN\Abhishek\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CopyComplete
+F:\SVN\Tauseef\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+F:\SVN\Tauseef\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+F:\SVN\Tauseef\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+F:\SVN\Tauseef\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csprojAssemblyReference.cache
+F:\SVN\Tauseef\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CoreCompileInputs.cache
+F:\SVN\Tauseef\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CopyComplete
+F:\SVN\Tauseef\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+F:\SVN\Tauseef\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+F:\SVN\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+F:\SVN\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+F:\SVN\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+F:\SVN\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CoreCompileInputs.cache
+F:\SVN\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CopyComplete
+F:\SVN\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+F:\SVN\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+F:\Software\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+F:\Software\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+F:\Software\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+F:\Software\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CoreCompileInputs.cache
+F:\Software\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CopyComplete
+F:\Software\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+F:\Software\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+F:\Software\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.AssemblyReference.cache
+E:\shubham\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+E:\shubham\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+E:\shubham\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+E:\shubham\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CoreCompileInputs.cache
+E:\shubham\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CopyComplete
+E:\shubham\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+E:\shubham\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+E:\ALL\SHUBHAM230822\shubham\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+E:\ALL\SHUBHAM230822\shubham\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+E:\ALL\SHUBHAM230822\shubham\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+E:\ALL\SHUBHAM230822\shubham\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.AssemblyReference.cache
+E:\ALL\SHUBHAM230822\shubham\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CoreCompileInputs.cache
+E:\ALL\SHUBHAM230822\shubham\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CopyComplete
+E:\ALL\SHUBHAM230822\shubham\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+E:\ALL\SHUBHAM230822\shubham\Dotnet\Listeners_for_both_db_ctrls\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+E:\Listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+E:\Listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+E:\Listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+E:\Listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CoreCompileInputs.cache
+E:\Listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CopyComplete
+Listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+Listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+C:\Users\Admin\Desktop\New folder (4)\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+C:\Users\Admin\Desktop\New folder (4)\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+C:\Users\Admin\Desktop\New folder (4)\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+C:\Users\Admin\Desktop\New folder (4)\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.dll
+C:\Users\Admin\Desktop\New folder (4)\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.dll
+C:\Users\Admin\Desktop\New folder (4)\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Desktop\New folder (4)\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Text.Json.dll
+C:\Users\Admin\Desktop\New folder (4)\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Desktop\New folder (4)\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\Desktop\New folder (4)\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.pdb
+C:\Users\Admin\Desktop\New folder (4)\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.xml
+C:\Users\Admin\Desktop\New folder (4)\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.xml
+C:\Users\Admin\Desktop\New folder (4)\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Desktop\New folder (4)\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.xml
+C:\Users\Admin\Desktop\New folder (4)\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\New folder (4)\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CopyComplete
+C:\Users\Admin\Desktop\New folder (4)\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+C:\Users\Admin\Desktop\New folder (4)\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+C:\Users\Admin\Desktop\New folder (4)\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.AssemblyReference.cache
+D:\Shared\listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+D:\Shared\listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+D:\Shared\listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\Shared\listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.dll
+D:\Shared\listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.dll
+D:\Shared\listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Shared\listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Text.Json.dll
+D:\Shared\listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.dll
+D:\Shared\listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.pdb
+D:\Shared\listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.xml
+D:\Shared\listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.xml
+D:\Shared\listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Shared\listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.xml
+D:\Shared\listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.AssemblyReference.cache
+D:\Shared\listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.SuggestedBindingRedirects.cache
+D:\Shared\listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CoreCompileInputs.cache
+D:\Shared\listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CopyComplete
+D:\Shared\listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+D:\Shared\listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+C:\Users\user\Desktop\Practice_Folder\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+C:\Users\user\Desktop\Practice_Folder\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+C:\Users\user\Desktop\Practice_Folder\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+C:\Users\user\Desktop\Practice_Folder\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.dll
+C:\Users\user\Desktop\Practice_Folder\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.dll
+C:\Users\user\Desktop\Practice_Folder\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\Practice_Folder\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Text.Json.dll
+C:\Users\user\Desktop\Practice_Folder\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.dll
+C:\Users\user\Desktop\Practice_Folder\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.pdb
+C:\Users\user\Desktop\Practice_Folder\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.xml
+C:\Users\user\Desktop\Practice_Folder\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.xml
+C:\Users\user\Desktop\Practice_Folder\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Desktop\Practice_Folder\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.xml
+C:\Users\user\Desktop\Practice_Folder\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Practice_Folder\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\Practice_Folder\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Practice_Folder\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CopyComplete
+C:\Users\user\Desktop\Practice_Folder\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+C:\Users\user\Desktop\Practice_Folder\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+C:\Users\user\Desktop\Practice_Folder\listeners\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Practice_Folder\listeners\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\Practice_Folder\listeners\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Practice_Folder\listeners\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+C:\Users\user\Desktop\Practice_Folder\listeners\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+C:\Users\user\Desktop\Practice_Folder\listeners\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+C:\Users\user\Desktop\Practice_Folder\listeners\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+C:\Users\user\Desktop\Practice_Folder\listeners\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+C:\Users\user\Desktop\Practice_Folder\listeners\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.dll
+C:\Users\user\Desktop\Practice_Folder\listeners\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.dll
+C:\Users\user\Desktop\Practice_Folder\listeners\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\Practice_Folder\listeners\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Text.Json.dll
+C:\Users\user\Desktop\Practice_Folder\listeners\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.dll
+C:\Users\user\Desktop\Practice_Folder\listeners\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.pdb
+C:\Users\user\Desktop\Practice_Folder\listeners\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.xml
+C:\Users\user\Desktop\Practice_Folder\listeners\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.xml
+C:\Users\user\Desktop\Practice_Folder\listeners\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Desktop\Practice_Folder\listeners\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.xml
+C:\Users\user\Desktop\Practice_Folder\listeners\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CopyComplete
+C:\Users\user\Desktop\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+C:\Users\user\Desktop\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+C:\Users\user\Desktop\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+C:\Users\user\Desktop\GPSTrackerListeners.AtlantaNew\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Desktop\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.dll
+C:\Users\user\Desktop\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.dll
+C:\Users\user\Desktop\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Text.Json.dll
+C:\Users\user\Desktop\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.dll
+C:\Users\user\Desktop\GPSTrackerListeners.AtlantaNew\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\Desktop\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.pdb
+C:\Users\user\Desktop\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.xml
+C:\Users\user\Desktop\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.xml
+C:\Users\user\Desktop\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Desktop\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.xml
+C:\Users\user\Desktop\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CopyComplete
+C:\Users\user\Desktop\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+C:\Users\user\Desktop\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\Practice_Folder\server_codes\Listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+D:\Practice_Folder\server_codes\Listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+D:\Practice_Folder\server_codes\Listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\Practice_Folder\server_codes\Listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Newtonsoft.Json.dll
+D:\Practice_Folder\server_codes\Listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.dll
+D:\Practice_Folder\server_codes\Listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.dll
+D:\Practice_Folder\server_codes\Listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Practice_Folder\server_codes\Listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Text.Json.dll
+D:\Practice_Folder\server_codes\Listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.dll
+D:\Practice_Folder\server_codes\Listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Newtonsoft.Json.xml
+D:\Practice_Folder\server_codes\Listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.pdb
+D:\Practice_Folder\server_codes\Listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.xml
+D:\Practice_Folder\server_codes\Listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.xml
+D:\Practice_Folder\server_codes\Listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Practice_Folder\server_codes\Listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.xml
+D:\Practice_Folder\server_codes\Listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.AssemblyReference.cache
+D:\Practice_Folder\server_codes\Listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.SuggestedBindingRedirects.cache
+D:\Practice_Folder\server_codes\Listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CoreCompileInputs.cache
+D:\Practice_Folder\server_codes\Listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CopyComplete
+D:\Practice_Folder\server_codes\Listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+D:\Practice_Folder\server_codes\Listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+C:\Users\user\Desktop\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+C:\Users\user\Desktop\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+C:\Users\user\Desktop\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+C:\Users\user\Desktop\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+C:\Users\user\Desktop\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+C:\Users\user\Desktop\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Desktop\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.dll
+C:\Users\user\Desktop\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.dll
+C:\Users\user\Desktop\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Text.Json.dll
+C:\Users\user\Desktop\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.dll
+C:\Users\user\Desktop\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\Desktop\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.pdb
+C:\Users\user\Desktop\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.xml
+C:\Users\user\Desktop\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.xml
+C:\Users\user\Desktop\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Desktop\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.xml
+C:\Users\user\Desktop\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CopyComplete
+D:\SVN_Commit\Server_Code_Current\Listeners_running_with_privateIP\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+D:\SVN_Commit\Server_Code_Current\Listeners_running_with_privateIP\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+D:\SVN_Commit\Server_Code_Current\Listeners_running_with_privateIP\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\SVN_Commit\Server_Code_Current\Listeners_running_with_privateIP\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Newtonsoft.Json.dll
+D:\SVN_Commit\Server_Code_Current\Listeners_running_with_privateIP\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.dll
+D:\SVN_Commit\Server_Code_Current\Listeners_running_with_privateIP\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.dll
+D:\SVN_Commit\Server_Code_Current\Listeners_running_with_privateIP\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\SVN_Commit\Server_Code_Current\Listeners_running_with_privateIP\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Text.Json.dll
+D:\SVN_Commit\Server_Code_Current\Listeners_running_with_privateIP\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.dll
+D:\SVN_Commit\Server_Code_Current\Listeners_running_with_privateIP\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Newtonsoft.Json.xml
+D:\SVN_Commit\Server_Code_Current\Listeners_running_with_privateIP\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.pdb
+D:\SVN_Commit\Server_Code_Current\Listeners_running_with_privateIP\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.xml
+D:\SVN_Commit\Server_Code_Current\Listeners_running_with_privateIP\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.xml
+D:\SVN_Commit\Server_Code_Current\Listeners_running_with_privateIP\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\SVN_Commit\Server_Code_Current\Listeners_running_with_privateIP\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.xml
+D:\SVN_Commit\Server_Code_Current\Listeners_running_with_privateIP\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.AssemblyReference.cache
+D:\SVN_Commit\Server_Code_Current\Listeners_running_with_privateIP\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.SuggestedBindingRedirects.cache
+D:\SVN_Commit\Server_Code_Current\Listeners_running_with_privateIP\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CoreCompileInputs.cache
+D:\SVN_Commit\Server_Code_Current\Listeners_running_with_privateIP\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CopyComplete
+D:\SVN_Commit\Server_Code_Current\Listeners_running_with_privateIP\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+D:\SVN_Commit\Server_Code_Current\Listeners_running_with_privateIP\listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.AssemblyReference.cache
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CoreCompileInputs.cache
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\FirebaseAdmin.dll
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.dll
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.Rest.dll
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Auth.dll
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Core.dll
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.dll
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.PlatformServices.dll
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Newtonsoft.Json.dll
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.dll
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Buffers.dll
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Collections.Immutable.dll
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.dll
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Text.Json.dll
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.dll
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\FirebaseAdmin.xml
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.pdb
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.xml
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.Rest.pdb
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.Rest.xml
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.pdb
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.xml
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Auth.pdb
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Auth.xml
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Core.pdb
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Core.xml
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Newtonsoft.Json.xml
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.pdb
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.xml
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Buffers.xml
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Collections.Immutable.xml
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.xml
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.xml
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrack.AEE99BA2.Up2Date
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+D:\SVN_Commit\Server_Code_Current\Yotta_listeners\ATL_STD_RFID_16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\FirebaseAdmin.dll
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.dll
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.Rest.dll
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Auth.dll
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Core.dll
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.dll
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.dll
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Buffers.dll
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.dll
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Text.Json.dll
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.dll
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\FirebaseAdmin.xml
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.pdb
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.xml
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.Rest.pdb
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.Rest.xml
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.pdb
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.xml
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Auth.pdb
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Auth.xml
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Core.pdb
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Core.xml
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.pdb
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.xml
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Buffers.xml
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.xml
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.xml
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.AssemblyReference.cache
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CoreCompileInputs.cache
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrack.AEE99BA2.Up2Date
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+C:\Users\Chirag\Desktop\16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\FirebaseAdmin.dll
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.dll
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.Rest.dll
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Auth.dll
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Core.dll
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.dll
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.dll
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Buffers.dll
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.dll
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Text.Json.dll
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.dll
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\FirebaseAdmin.xml
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.pdb
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.xml
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.Rest.pdb
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.Rest.xml
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.pdb
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.xml
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Auth.pdb
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Auth.xml
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Core.pdb
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Core.xml
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.pdb
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.xml
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Buffers.xml
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.xml
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.xml
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.AssemblyReference.cache
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CoreCompileInputs.cache
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrack.AEE99BA2.Up2Date
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+C:\Users\Gaurav\Desktop\16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe.config
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.pdb
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\FirebaseAdmin.dll
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.dll
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.Rest.dll
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Auth.dll
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Core.dll
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.dll
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.PlatformServices.dll
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Newtonsoft.Json.dll
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.dll
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Buffers.dll
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Collections.Immutable.dll
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.dll
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Text.Json.dll
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.dll
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\FirebaseAdmin.xml
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.pdb
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.xml
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.Rest.pdb
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Api.Gax.Rest.xml
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.pdb
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.xml
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Auth.pdb
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Auth.xml
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Core.pdb
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Google.Apis.Core.xml
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Newtonsoft.Json.xml
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.pdb
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\Npgsql.xml
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Buffers.xml
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Collections.Immutable.xml
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Memory.xml
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\bin\Debug\System.ValueTuple.xml
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.AssemblyReference.cache
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.csproj.CoreCompileInputs.cache
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrack.AEE99BA2.Up2Date
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.exe
+D:\16214 (RFID)\16214\GPSTrackerListeners.AtlantaNew\obj\x86\Debug\GPSTrackerListeners.AtlantaNew.pdb

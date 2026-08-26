@@ -1,0 +1,32 @@
+﻿Installing assembly 'E:\Listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\Listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+   logfile = E:\Listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.InstallLog
+Installing service ListenerATL_STD_16107...
+Service ListenerATL_STD_16107 has been successfully installed.
+Creating EventLog source ListenerATL_STD_16107 in log Application...
+Committing assembly 'E:\Listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\Listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+   logfile = E:\Listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.InstallLog
+Uninstalling assembly 'E:\Listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\Listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+   logfile = E:\Listener\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.InstallLog
+Removing EventLog source ListenerATL_STD_16107.
+Service ListenerATL_STD_16107 is being removed from the system...
+Service ListenerATL_STD_16107 was successfully removed from the system.
+Uninstalling assembly 'C:\Users\Admin\Desktop\New folder (4)\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\Admin\Desktop\New folder (4)\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.exe
+   logfile = C:\Users\Admin\Desktop\New folder (4)\deviceOffline_listener\ATL_STD\GPSTrackerListeners.AtlantaNew\bin\Debug\GPSTrackerListeners.AtlantaNew.InstallLog
+Removing EventLog source ListenerATL_STD_16107.
+Warning: The source ListenerATL_STD_16107 is not registered on the local machine.
+Service ListenerATL_STD_16107 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
