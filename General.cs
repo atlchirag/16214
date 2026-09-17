@@ -24,9 +24,8 @@ namespace GPSTrackerListeners.AtlantaNew
 {
     public class General
     {
-        public static readonly string connectionString1 = "Data Source={ip};Initial Catalog={cat};User ID=(user);Password={pass}; Max Pool Size=32767;";Size=32767;";
+        public static readonly string connectionString1 = "Data Source={ip};Initial Catalog={cat};User ID=(user);Password={pass}; Max Pool Size=32767;";
         public static readonly string connectionStringAtlTracking = connectionString1.Replace("Initial Catalog={catt}", "Initial Catalog={cat}");
-
 
         public static string ServiceName = "ListenerATL_STD_RFID_16214";
 
@@ -595,7 +594,7 @@ namespace GPSTrackerListeners.AtlantaNew
                 gen.DML(
     "INSERT INTO "+ bs_notification_parent+"(parent_id, message, date_time, Route_id,student_id) " +
     "VALUES (" +
-    "(SELECT id FROM "+bs_user_master+" WHERE bs_user_name='" + mobiles + "'), " +
+    "(SELECT Top 1 id FROM "+bs_user_master+" WHERE bs_user_name='" + mobiles + "'), " +
     "'" + msg + "', " +
     "GETDATE(), " +
     route_id +
@@ -947,6 +946,8 @@ namespace GPSTrackerListeners.AtlantaNew
                             string bs_attendance;
                             string rf_punch_history;
                             string bs_user_master;
+                            string sms_master;
+                            string supscription;
                             if (userTable == "atltracking.dbo.tbl_users")
                             {
                                 routemaster = "atltracking.dbo.bs_route_master";
@@ -955,6 +956,8 @@ namespace GPSTrackerListeners.AtlantaNew
                                 rf_punch_history = "atltracking.dbo.rf_punch_history ";
                                 bs_attendance = "atltracking.dbo.bs_attendance";
                                 bs_user_master = "atltracking.dbo.bs_user_master";
+                                sms_master = "atltracking.dbo.bs_sms_master";
+                                supscription = "atltracking.dbo.bs_attendance_subscription";
 
                             }
                             else
@@ -965,6 +968,9 @@ namespace GPSTrackerListeners.AtlantaNew
                                 bs_attendance = "newtrack.dbo.bs_attendance";
                                 rf_punch_history = "newtrack.dbo.rf_punch_history ";
                                 bs_user_master = "newtrack.dbo.bs_user_master";
+                                sms_master = "newtrack.dbo.bs_sms_master";
+                                supscription = "newtrack.dbo.bs_attendance_subscription";
+
 
 
                             }
@@ -994,7 +1000,7 @@ select
     msg_api_url,
     sender_id,
     msg_service_from
-from newtrack.dbo.bs_sms_master
+from " +sms_master+@"
 where sys_user_id = " + session.UserId);
 
                             General.WriteToLogFile(
@@ -1014,7 +1020,7 @@ where sys_user_id = " + session.UserId);
                             string query4 = @"
 select 
     attendance_type_id
-from newtrack.dbo.bs_attendance_subscription
+from "+supscription+ @"
 where sys_user_id = " + session.UserId;
 
                             DataTable dtAttn = SelectQuery(query4);
@@ -1353,7 +1359,7 @@ where sys_user_id = " + session.UserId;
                 rf_punch_history = "atltracking.dbo.rf_punch_history ";
                 bs_attendance = "atltracking.dbo.bs_attendance";
                 bs_user_master = "atltracking.dbo.bs_user_master";
-                bs_parent_login_log = "atltracking.dob.bs_parent_login_log";
+                bs_parent_login_log = "atltracking.dbo.bs_parent_login_log";
                 bs_notification_parent="atltracking.dbo.bs_notification_parent";
 
             }
@@ -1365,7 +1371,7 @@ where sys_user_id = " + session.UserId;
                 bs_attendance = "newtrack.dbo.bs_attendance";
                 rf_punch_history = "newtrack.dbo.rf_punch_history ";
                 bs_user_master = "newtrack.dbo.bs_user_master";
-                bs_parent_login_log = "newtrack.dob.bs_parent_login_log";
+                bs_parent_login_log = "newtrack.dbo.bs_parent_login_log";
                 bs_notification_parent = "newtrack.dbo.bs_notification_parent";
 
 
@@ -1390,7 +1396,7 @@ select
     fcm 
 from "+ bs_parent_login_log+@" 
 where bs_user_id = '" + bsUserId + @"' 
-order by id desc");
+and fcm is not null order by id desc");
 
                     if (dt1 != null && dt1.Rows.Count > 0)
                     {
@@ -1521,7 +1527,8 @@ VALUES
                 {
                     FirebaseApp.Create(new AppOptions()
                     {
-                        Credential = GoogleCredential.FromFile($"{pathToServiceAccountKey}\\schoolbuddy-4fc6d-firebase-adminsdk-xh2kk-f674f1807a.json"),
+                        //Credential = GoogleCredential.FromFile($"{pathToServiceAccountKey}\\schoolbuddy-4fc6d-firebase-adminsdk-xh2kk-f674f1807a.json"),
+                        Credential = GoogleCredential.FromFile($"{pathToServiceAccountKey}\\schoolbuddy-4fc6d-firebase-adminsdk-xh2kk-5fac47bd25.json"),
                     });
                 }
                 // Initialize Firebase App

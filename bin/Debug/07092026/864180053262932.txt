@@ -1,0 +1,28 @@
+07-09-2026 11:15:10
+diff = 222.426709825 here
+07-09-2026 11:15:10
+ATL864180053262932,$GPRMC,020245,A,2835.1499,N,07703.7144,E,0.0,0,070926,,,*28,#11111011000001,0.00,-70.00,34EF6CFA,40631.02,33,3.4,23,404,10,ca,6082ATLX
+07-09-2026 11:15:10
+inside the time checking section, route Id = 0
+07-09-2026 11:15:10
+after Convert.ToDateTime(gpsTime).Year, route Id = 0
+07-09-2026 11:15:10
+inside the session.RouteId == 0
+07-09-2026 11:15:20
+Route Query = 
+select top 1
+    r.Id,
+    r.start_time_up,
+    r.end_time_up,
+    u.school_lat,
+    u.school_lng,
+    r.route_name
+from atltracking.dbo.bs_route_master r
+inner join atltracking.dbo.tbl_users u
+    on u.id = r.sys_user_id
+where r.sys_service_id = 136353
+AND CAST('07:32:45' AS TIME) BETWEEN
+        CAST(DATEADD(MINUTE, -15, CAST(r.start_time_up AS DATETIME)) AS TIME)
+        AND
+        CAST(DATEADD(MINUTE, 30, CAST(r.end_time_up AS DATETIME)) AS TIME)
+order by r.id desc service_id = 136353

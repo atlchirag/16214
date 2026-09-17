@@ -1,0 +1,117 @@
+16-09-2026 10:29:07
+diff = 1321.88994191 here
+16-09-2026 10:29:07
+ATL864180053264235,$GPRMC,065714,A,2835.1450,N,07703.7065,E,0.0,0,150926,,,**2C,#11011011000001,0.00,-70.00,337bcbc7,30959.88,33,3.7,26,404,10,ca,6082ATLX
+16-09-2026 10:29:07
+inside the time checking section, route Id = 0
+16-09-2026 10:29:07
+after Convert.ToDateTime(gpsTime).Year, route Id = 0
+16-09-2026 10:29:07
+inside the session.RouteId == 0
+16-09-2026 10:29:07
+Route Query = 
+select top 1
+    r.Id,
+    r.start_time_up,
+    r.end_time_up,
+    u.school_lat,
+    u.school_lng,
+    r.route_name
+from atltracking.dbo.bs_route_master r
+inner join atltracking.dbo.tbl_users u
+    on u.id = r.sys_user_id
+where r.sys_service_id = 136349
+AND CAST('12:27:14' AS TIME) BETWEEN
+        CAST(DATEADD(MINUTE, -15, CAST(r.start_time_up AS DATETIME)) AS TIME)
+        AND
+        CAST(DATEADD(MINUTE, 30, CAST(r.end_time_up AS DATETIME)) AS TIME)
+order by r.id desc service_id = 136349
+16-09-2026 10:29:07
+Route Query Result Rows = 1
+16-09-2026 10:29:07
+RouteId = 2295, RouteName = R-2 drop
+16-09-2026 10:29:07
+Student Query = 
+select 
+    s.id,
+    s.student_name,
+    s.rf_id,
+    s.mobile_no1,
+    ms.pick_B,
+    ms.pick_D,
+    ms.drop_B,
+    ms.drop_D,
+    rs.route_id,
+    ms.id as msg_id
+from atltracking.dbo.bs_student_master_backup s
+inner join atltracking.dbo.bs_route_students rs
+    on rs.student_id = s.Id
+inner join atltracking.dbo.bs_msg_subscription ms
+    on s.id = ms.student_id
+where rs.route_id = 2295
+16-09-2026 10:29:07
+Student Query Result Rows = 24
+16-09-2026 10:29:07
+Student Loaded => RFID = 34f7b51a, Mobile = 9910005379, Name = TASHWIK JANGPANGI
+16-09-2026 10:29:07
+Student Loaded => RFID = 3500bfba, Mobile = 8920205649, Name = TAKSHVI SINGH
+16-09-2026 10:29:07
+Student Loaded => RFID = 33755b37, Mobile = 7042666188, Name = SHRAVIT BANERJEE
+16-09-2026 10:29:07
+Student Loaded => RFID = 3510175a, Mobile = 9953130811, Name = AMAIRA
+16-09-2026 10:29:07
+Student Loaded => RFID = 35ca937a, Mobile = 9711987794, Name = JAIWARDHAN PRASHAR
+16-09-2026 10:29:07
+Student Loaded => RFID = 338a2d97, Mobile = 9810905958, Name = AMYRA TYAGI
+16-09-2026 10:29:07
+Student Loaded => RFID = 34f76f9a, Mobile = 9873144409, Name = ARHAM HASNAIN
+16-09-2026 10:29:07
+Student Loaded => RFID = 257bf037, Mobile = 9971018399, Name = TANISHKA MEHRA
+16-09-2026 10:29:07
+Student Loaded => RFID = 34f2021a, Mobile = 9810569382, Name = AADYA SATI
+16-09-2026 10:29:07
+Student Loaded => RFID = 3529c7aa, Mobile = 9643310234, Name = CHIRAG YADAV
+16-09-2026 10:29:07
+Student Loaded => RFID = 337ee627, Mobile = 9999015483, Name = DRIVA
+16-09-2026 10:29:07
+Student Loaded => RFID = 3533ea0a, Mobile = 7503230731, Name = PRAVYA DIXIT
+16-09-2026 10:29:07
+Student Loaded => RFID = 34fedeaa, Mobile = 8920987590, Name = VINAYAK RATAN
+16-09-2026 10:29:07
+Student Loaded => RFID = 337bcbc7, Mobile = 9990398686, Name = EVAN SHARMA
+16-09-2026 10:29:07
+Student Loaded => RFID = 337bcbc7, Mobile = 9990398686, Name = EVAN SHARMA
+16-09-2026 10:29:07
+Student Loaded => RFID = 34f1d52a, Mobile = 7565824941, Name = KARTIK PATEL
+16-09-2026 10:29:07
+Student Loaded => RFID = 34fc5b7a, Mobile = 9810301862, Name = AKSHITA BHANDARI
+16-09-2026 10:29:07
+Student Loaded => RFID = 25796567, Mobile = 9999991709, Name = ASHWIKA GAUR
+16-09-2026 10:29:07
+Student Loaded => RFID = 33798347, Mobile = 7565824941, Name = ATHARV PATEL
+16-09-2026 10:29:07
+Student Loaded => RFID = 35d0068a, Mobile = 9717466977, Name = Mishti Agarwal
+16-09-2026 10:29:07
+Student Loaded => RFID = abddcd55, Mobile = 8447816003, Name = SHIVANSH SHARMA
+16-09-2026 10:29:07
+Student Loaded => RFID = 338fe8b7, Mobile = 9810508623, Name = YEDHANT MEHRA
+16-09-2026 10:29:07
+Student Loaded => RFID = 257ff1a7, Mobile = 9810663207, Name = AARIZ BHAGI
+16-09-2026 10:29:07
+Student Loaded => RFID = 8ea3b12b, Mobile = 9540083833, Name = YANITA MALIK
+16-09-2026 10:29:07
+RFID Processing RouteId = 2295
+16-09-2026 10:29:07
+RFID Match Debug => RFID = 337bcbc7, Matched = YES, Student = EVAN SHARMA, RouteName = R-2 drop, IsAtlTrackingDevice = True
+16-09-2026 10:29:07
+Route Name = R-2 drop
+16-09-2026 10:29:07
+Message before fallback = NA
+16-09-2026 10:29:07
+Message still NA, fallback notification will be used.
+16-09-2026 10:29:07
+is_msg_send = False
+16-09-2026 10:29:07
+Mobile Token Match Count = 1, Mobile = 9990398686
+16-09-2026 10:29:07
+Before Notification => Mobile = 9990398686, Message = Dear parent, your ward EVAN SHARMA just punched his/her RF card. 12:27 PM, AUID = , IUID = 

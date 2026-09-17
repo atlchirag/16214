@@ -1,0 +1,204 @@
+07-09-2026 10:01:55
+diff = 161.146570801667 here
+07-09-2026 10:01:55
+ATL864180053264763,$GPRMC,015047,A,2835.6606,N,07704.4092,E,0.0,0,070926,,,*23,#11111011000001,0.00,-70.00,34f1438a,22842.38,33,0.0,31,404,10,33a,5f75ATL
+07-09-2026 10:01:55
+inside the time checking section, route Id = 0
+07-09-2026 10:01:55
+after Convert.ToDateTime(gpsTime).Year, route Id = 0
+07-09-2026 10:01:55
+inside the session.RouteId == 0
+07-09-2026 10:02:01
+Route Query = 
+select top 1
+    r.Id,
+    r.start_time_up,
+    r.end_time_up,
+    u.school_lat,
+    u.school_lng,
+    r.route_name
+from atltracking.dbo.bs_route_master r
+inner join atltracking.dbo.tbl_users u
+    on u.id = r.sys_user_id
+where r.sys_service_id = 136342
+AND CAST('07:20:47' AS TIME) BETWEEN
+        CAST(DATEADD(MINUTE, -15, CAST(r.start_time_up AS DATETIME)) AS TIME)
+        AND
+        CAST(DATEADD(MINUTE, 30, CAST(r.end_time_up AS DATETIME)) AS TIME)
+order by r.id desc service_id = 136342
+07-09-2026 10:02:05
+Route Query Result Rows = 1
+07-09-2026 10:02:18
+RouteId = 4991, RouteName = R-22 pick
+07-09-2026 10:02:21
+Student Query = 
+select 
+    s.id,
+    s.student_name,
+    s.rf_id,
+    s.mobile_no1,
+    ms.pick_B,
+    ms.pick_D,
+    ms.drop_B,
+    ms.drop_D,
+    rs.route_id,
+    ms.id as msg_id
+from atltracking.dbo.bs_student_master_backup s
+inner join atltracking.dbo.bs_route_students rs
+    on rs.student_id = s.Id
+inner join atltracking.dbo.bs_msg_subscription ms
+    on s.id = ms.student_id
+where rs.route_id = 4991
+07-09-2026 10:02:25
+Student Query Result Rows = 0
+07-09-2026 10:02:45
+Student Query = 
+select 
+    s.id,
+    s.student_name,
+    s.rf_id,
+    s.mobile_no1,
+    ms.pick_B,
+    ms.pick_D,
+    ms.drop_B,
+    ms.drop_D,
+    rs.route_id,
+    ms.id as msg_id
+from atltracking.dbo.bs_student_master_backup s
+inner join atltracking.dbo.bs_route_students rs
+    on rs.student_id = s.Id
+inner join atltracking.dbo.bs_msg_subscription ms
+    on s.id = ms.student_id
+where rs.route_id = 4991
+07-09-2026 10:03:39
+Student Query Result Rows = 0
+07-09-2026 10:03:42
+RFID Processing RouteId = 4991
+07-09-2026 10:03:46
+RFID Match Debug => RFID = 34f1438a, Matched = NO, Student = NULL, RouteName = R-22 pick, IsAtlTrackingDevice = True
+07-09-2026 10:03:49
+Route Name = R-22 pick
+07-09-2026 10:03:52
+Message before fallback = NA
+07-09-2026 10:03:57
+Message still NA, fallback notification will be used.
+07-09-2026 17:15:14
+diff = 312.54817868 here
+07-09-2026 17:15:14
+ATL864180053264763,$GPRMC,063241,A,2835.6711,N,07704.4238,E,0.0,0,070926,,,*23,#11111011000001,0.00,-70.00,34f1438a,22847.99,33,0.0,28,404,10,33a,5f76ATL
+07-09-2026 17:15:14
+inside the time checking section, route Id = 0
+07-09-2026 17:15:15
+after Convert.ToDateTime(gpsTime).Year, route Id = 0
+07-09-2026 17:15:19
+inside the session.RouteId == 0
+07-09-2026 17:15:24
+Route Query = 
+select top 1
+    r.Id,
+    r.start_time_up,
+    r.end_time_up,
+    u.school_lat,
+    u.school_lng,
+    r.route_name
+from atltracking.dbo.bs_route_master r
+inner join atltracking.dbo.tbl_users u
+    on u.id = r.sys_user_id
+where r.sys_service_id = 136342
+AND CAST('12:02:41' AS TIME) BETWEEN
+        CAST(DATEADD(MINUTE, -15, CAST(r.start_time_up AS DATETIME)) AS TIME)
+        AND
+        CAST(DATEADD(MINUTE, 30, CAST(r.end_time_up AS DATETIME)) AS TIME)
+order by r.id desc service_id = 136342
+07-09-2026 17:15:25
+Route Query Result Rows = 0
+07-09-2026 17:16:42
+Student Query = 
+select 
+    s.id,
+    s.student_name,
+    s.rf_id,
+    s.mobile_no1,
+    ms.pick_B,
+    ms.pick_D,
+    ms.drop_B,
+    ms.drop_D,
+    rs.route_id,
+    ms.id as msg_id
+from atltracking.dbo.bs_student_master_backup s
+inner join atltracking.dbo.bs_route_students rs
+    on rs.student_id = s.Id
+inner join atltracking.dbo.bs_msg_subscription ms
+    on s.id = ms.student_id
+where rs.route_id = 0
+07-09-2026 17:17:22
+Route Query = 
+select top 1
+    r.Id,
+    r.start_time_up,
+    r.end_time_up,
+    u.school_lat,
+    u.school_lng,
+    r.route_name
+from atltracking.dbo.bs_route_master r
+inner join atltracking.dbo.tbl_users u
+    on u.id = r.sys_user_id
+where r.sys_service_id = 136342
+AND CAST('12:02:41' AS TIME) BETWEEN
+        CAST(DATEADD(MINUTE, -15, CAST(r.start_time_up AS DATETIME)) AS TIME)
+        AND
+        CAST(DATEADD(MINUTE, 30, CAST(r.end_time_up AS DATETIME)) AS TIME)
+order by r.id desc service_id = 136342
+07-09-2026 17:17:37
+Route Query Result Rows = 0
+07-09-2026 17:20:27
+diff = 585.175918616667 here
+07-09-2026 17:20:28
+ATL864180053264763,$GPRMC,020517,A,2835.1541,N,07703.7168,E,0.0,0,070926,,,*22,#11111011000001,0.00,-70.00,34f1438a,22844.69,33,0.0,20,404,10,ca,6082ATL-
+07-09-2026 17:20:28
+inside the time checking section, route Id = 0
+07-09-2026 17:20:28
+after Convert.ToDateTime(gpsTime).Year, route Id = 0
+07-09-2026 17:20:32
+inside the session.RouteId == 0
+07-09-2026 17:20:33
+Route Query = 
+select top 1
+    r.Id,
+    r.start_time_up,
+    r.end_time_up,
+    u.school_lat,
+    u.school_lng,
+    r.route_name
+from atltracking.dbo.bs_route_master r
+inner join atltracking.dbo.tbl_users u
+    on u.id = r.sys_user_id
+where r.sys_service_id = 136342
+AND CAST('07:35:17' AS TIME) BETWEEN
+        CAST(DATEADD(MINUTE, -15, CAST(r.start_time_up AS DATETIME)) AS TIME)
+        AND
+        CAST(DATEADD(MINUTE, 30, CAST(r.end_time_up AS DATETIME)) AS TIME)
+order by r.id desc service_id = 136342
+07-09-2026 17:20:34
+Route Query Result Rows = 1
+07-09-2026 17:20:37
+RouteId = 4991, RouteName = R-22 pick
+07-09-2026 17:20:39
+Student Query = 
+select 
+    s.id,
+    s.student_name,
+    s.rf_id,
+    s.mobile_no1,
+    ms.pick_B,
+    ms.pick_D,
+    ms.drop_B,
+    ms.drop_D,
+    rs.route_id,
+    ms.id as msg_id
+from atltracking.dbo.bs_student_master_backup s
+inner join atltracking.dbo.bs_route_students rs
+    on rs.student_id = s.Id
+inner join atltracking.dbo.bs_msg_subscription ms
+    on s.id = ms.student_id
+where rs.route_id = 4991

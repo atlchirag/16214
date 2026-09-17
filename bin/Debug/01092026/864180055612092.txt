@@ -1,0 +1,184 @@
+01-09-2026 16:34:33
+diff = 115.213660443333 here
+01-09-2026 16:34:33
+ATL864180055612092,$GPRMC,090921,V,,,,,,,010926,,,*12,#11111011000001,0.92,-70.00,352a3d9a,32259.97,33,4.1,21,404,10,66,2ad1ATLA
+01-09-2026 16:34:33
+inside the time checking section, route Id = 0
+01-09-2026 16:34:33
+after Convert.ToDateTime(gpsTime).Year, route Id = 0
+01-09-2026 16:34:33
+inside the session.RouteId == 0
+01-09-2026 16:34:33
+Route Query = 
+select top 1
+    r.Id,
+    r.start_time_up,
+    r.end_time_up,
+    u.school_lat,
+    u.school_lng,
+    r.route_name
+from atltracking.dbo.bs_route_master r
+inner join atltracking.dbo.tbl_users u
+    on u.id = r.sys_user_id
+where r.sys_service_id = 136343
+order by r.id desc service_id = 136343
+01-09-2026 16:34:33
+Route Query Result Rows = 1
+01-09-2026 16:36:04
+RouteId = 2329, RouteName = R-16 Pick 2025
+01-09-2026 16:36:18
+Student Query = 
+select 
+    s.id,
+    s.student_name,
+    s.rf_id,
+    s.mobile_no1,
+    ms.pick_B,
+    ms.pick_D,
+    ms.drop_B,
+    ms.drop_D,
+    rs.route_id,
+    ms.id as msg_id
+from atltracking.dbo.bs_student_master_backup s
+inner join atltracking.dbo.bs_route_students rs
+    on rs.student_id = s.Id
+inner join atltracking.dbo.bs_msg_subscription ms
+    on s.id = ms.student_id
+where rs.route_id = 2329
+01-09-2026 16:36:43
+Student Query Result Rows = 50
+01-09-2026 16:37:31
+Student Loaded => RFID = 353106ea, Mobile = 8743942771, Name = VANSHIKA RANA
+01-09-2026 16:37:41
+Student Loaded => RFID = 34ed976a, Mobile = 9911006410, Name = RAM
+01-09-2026 16:37:41
+Student Loaded => RFID = 3533c8da, Mobile = 9971754454, Name = KANISHK YADAV
+01-09-2026 16:37:41
+Student Loaded => RFID = a2980145, Mobile = 9711551997, Name = POORVI SINGH
+01-09-2026 16:37:41
+Student Loaded => RFID = 34f71faa, Mobile = 9818535454, Name = GUNNIT SAXENA
+01-09-2026 16:37:41
+Student Loaded => RFID = 3510d73a, Mobile = 8826226427, Name = VAADISH SHARMA
+01-09-2026 16:37:41
+Student Loaded => RFID = 3516d3fa, Mobile = 9899059375, Name = ANSHIKA SAXENA
+01-09-2026 16:37:41
+Student Loaded => RFID = 34f11fca, Mobile = 9811019846, Name = AYANSH SAXENA
+01-09-2026 16:37:41
+Student Loaded => RFID = 353000ea, Mobile = 9918462384, Name = AADYA GAUTAM
+01-09-2026 16:37:41
+Student Loaded => RFID = 35175a2a, Mobile = 9891265509, Name = PARTH RAJVANSHI
+01-09-2026 16:37:41
+Student Loaded => RFID = 3510892a, Mobile = 9711136161, Name = VANDITA ANURAG
+01-09-2026 16:37:41
+Student Loaded => RFID = 3511838a, Mobile = 9999302168, Name = VIHAAN AGGARWAL
+01-09-2026 16:37:41
+Student Loaded => RFID = 3503165a, Mobile = 9910412895, Name = VIVAN TYAGI
+01-09-2026 16:37:41
+Student Loaded => RFID = bba997c8, Mobile = 9582973659, Name = SHASHWAT BISHT
+01-09-2026 16:37:41
+Student Loaded => RFID = 35d45cea, Mobile = 8707768598, Name = ANIRUDDHA JAISWAL
+01-09-2026 16:37:41
+Student Loaded => RFID = 35cbbe5a, Mobile = 9997662250, Name = SAARVI GIRHOTRA
+01-09-2026 16:37:41
+Student Loaded => RFID = 35d6f8fa, Mobile = 9999456301, Name = ARHAM BANSAL
+01-09-2026 16:37:41
+Student Loaded => RFID = 35d25b7a, Mobile = 9811762581, Name = PRAGYAN AGARWAL
+01-09-2026 16:37:41
+Student Loaded => RFID = 35d1ef2a, Mobile = 9953099740, Name = ADIDEV REDDY
+01-09-2026 16:37:41
+Student Loaded => RFID = 35cf3b8a, Mobile = 9599775410, Name = RUDRA JAGDISH
+01-09-2026 16:37:41
+Student Loaded => RFID = 34fe175a, Mobile = 9911407243, Name = NIKHILESH RATH
+01-09-2026 16:37:41
+Student Loaded => RFID = 352acf4a, Mobile = 9810054399, Name = PRANAV  BAHL
+01-09-2026 16:37:41
+Student Loaded => RFID = 3511213a, Mobile = 9717390695, Name = DELENA ARYA
+01-09-2026 16:37:41
+Student Loaded => RFID = ba4fa1e8, Mobile = 9540324167, Name = EKANSH KRISHNATREY
+01-09-2026 16:37:41
+Student Loaded => RFID = b0dfd2aa, Mobile = 9540324167, Name = VIHAAN KRISHNATREY
+01-09-2026 16:37:41
+Student Loaded => RFID = 352522ea, Mobile = 9967533566, Name = SARANYA SINGH
+01-09-2026 16:37:41
+Student Loaded => RFID = 3511634a, Mobile = 9990018998, Name = DEVANSH SAINI
+01-09-2026 16:37:41
+Student Loaded => RFID = 3510940a, Mobile = 8826226427, Name = ANIKSHA SHARMA
+01-09-2026 16:37:41
+Student Loaded => RFID = 3500bb1a, Mobile = 9811652851, Name = PRAKUL AGARWAL
+01-09-2026 16:37:41
+Student Loaded => RFID = 352a4f5a, Mobile = 9953970147, Name = YESHA GUPTA
+01-09-2026 16:37:41
+Student Loaded => RFID = bb27ff78, Mobile = 8882346660, Name = ARNAV GAUTAM
+01-09-2026 16:37:41
+Student Loaded => RFID = b9a7dd68, Mobile = 9212715027, Name = BHAVYA SHARMA
+01-09-2026 16:37:41
+Student Loaded => RFID = 34ff926a, Mobile = 9015288061, Name = AARJAV KUMAR
+01-09-2026 16:37:41
+Student Loaded => RFID = 351a630a, Mobile = 9899008776, Name = HIMANK SINGH
+01-09-2026 16:37:41
+Student Loaded => RFID = b0db1225, Mobile = 9810990486, Name = PRIYAN JAIN
+01-09-2026 16:37:41
+Student Loaded => RFID = aa2a39b5, Mobile = 9350624487, Name = ANANYA SINGH
+01-09-2026 16:37:41
+Student Loaded => RFID = 35d6eeda, Mobile = 8860545977, Name = GARVISH MADHOK
+01-09-2026 16:37:41
+Student Loaded => RFID = 91756cc9, Mobile = 8700645949, Name = KAIRA SHARMA
+01-09-2026 16:37:41
+Student Loaded => RFID = 352a3d9a, Mobile = 9289382287, Name = DIVIK BAHL
+01-09-2026 16:37:41
+Student Loaded => RFID = 91d307d9, Mobile = 9671555912, Name = moksh jangra
+01-09-2026 16:37:41
+Student Loaded => RFID = a673a1c8, Mobile = 9717357130, Name = RANNVEER TYAGI
+01-09-2026 16:37:41
+Student Loaded => RFID = accefd7a, Mobile = 9967673566, Name = HRISHIKESH SINGH
+01-09-2026 16:37:41
+Student Loaded => RFID = 3508946a, Mobile = 9818535454, Name = AHAAN SAXENA
+01-09-2026 16:37:41
+Student Loaded => RFID = 34ece83a, Mobile = 9212151187, Name = HRISHANK SINGH
+01-09-2026 16:37:41
+Student Loaded => RFID = 35d4e9da, Mobile = 9717390695, Name = ATHARVA ARYA
+01-09-2026 16:37:41
+Student Loaded => RFID = 34fed2ba, Mobile = 9311681212, Name = JANVI
+01-09-2026 16:37:41
+Student Loaded => RFID = 35032fea, Mobile = 9911575575, Name = MANNAT HOODA
+01-09-2026 16:37:41
+Student Loaded => RFID = a45f902a, Mobile = 9911216669, Name = shivansh gupta
+01-09-2026 16:37:41
+Student Loaded => RFID = 35053aba, Mobile = 8859037768, Name = LAKSHAY SINGH KWEERA
+01-09-2026 16:37:41
+Student Loaded => RFID = 3530a81a, Mobile = 7827355447, Name = Harsh Katrawat
+01-09-2026 16:37:45
+RFID Processing RouteId = 2329
+01-09-2026 16:37:48
+RFID Match Debug => RFID = 352a3d9a, Matched = YES, Student = DIVIK BAHL, RouteName = R-16 Pick 2025, IsAtlTrackingDevice = True
+01-09-2026 16:42:41
+RFID Match Debug => RFID = 352a3d9a, Matched = YES, Student = DIVIK BAHL, RouteName = R-16 Pick 2025, IsAtlTrackingDevice = True
+01-09-2026 16:42:43
+Message before fallback = NA
+01-09-2026 16:42:45
+Message still NA, fallback notification will be used.
+01-09-2026 17:20:28
+diff = 161.125395985 here
+01-09-2026 17:20:28
+ATL864180055612092,$GPRMC,090921,V,,,,,,,010926,,,*12,#11111011000001,0.92,-70.00,352a3d9a,32259.97,33,4.1,21,404,10,66,2ad1ATLA
+01-09-2026 17:20:28
+inside the time checking section, route Id = 0
+01-09-2026 17:20:28
+after Convert.ToDateTime(gpsTime).Year, route Id = 0
+01-09-2026 17:20:28
+inside the session.RouteId == 0
+01-09-2026 17:20:38
+Route Query = 
+select top 1
+    r.Id,
+    r.start_time_up,
+    r.end_time_up,
+    u.school_lat,
+    u.school_lng,
+    r.route_name
+from atltracking.dbo.bs_route_master r
+inner join atltracking.dbo.tbl_users u
+    on u.id = r.sys_user_id
+where r.sys_service_id = 136343
+and '14:39:21' between r.start_time_up and r.end_time_up
+order by r.id desc service_id = 136343

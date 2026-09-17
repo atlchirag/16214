@@ -1,0 +1,9 @@
+15-09-2026 16:37:41
+Notification: 8851077193 : Dear parent, your ward just punched his/her RF card. 11:18 AMError:"invalid_grant", Description:"Invalid JWT Signature.", Uri:""  
+Error:"invalid_grant", Description:"Invalid JWT Signature.", Uri:""
+15-09-2026 16:38:46
+Notification: 8851077193 : Dear parent, your ward just punched his/her RF card. 11:18 AMError:"invalid_grant", Description:"Invalid JWT Signature.", Uri:""  
+Error:"invalid_grant", Description:"Invalid JWT Signature.", Uri:""
+15-09-2026 16:39:02
+Notification: 8851077193 : Dear parent, your ward just punched his/her RF card. 11:18 AMError:"invalid_grant", Description:"Invalid JWT Signature.", Uri:""  
+Error:"invalid_grant", Description:"Invalid JWT Signature.", Uri:""

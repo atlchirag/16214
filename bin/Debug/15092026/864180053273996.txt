@@ -1,0 +1,120 @@
+15-09-2026 16:35:08
+diff = 317.004425031667 here
+15-09-2026 16:35:08
+ATL864180053273996,$GPRMC,054808,A,2835.1565,N,07703.6992,E,0.0,0,150926,,,*2B,#01111011000000,0.98,-70.00,3509B12A,37327.61,33,4.9,23,404,10,ca,f43eATLY
+15-09-2026 16:35:08
+inside the time checking section, route Id = 0
+15-09-2026 16:35:09
+after Convert.ToDateTime(gpsTime).Year, route Id = 0
+15-09-2026 16:35:13
+inside the session.RouteId == 0
+15-09-2026 16:35:14
+Route Query = 
+select top 1
+    r.Id,
+    r.start_time_up,
+    r.end_time_up,
+    u.school_lat,
+    u.school_lng,
+    r.route_name
+from atltracking.dbo.bs_route_master r
+inner join atltracking.dbo.tbl_users u
+    on u.id = r.sys_user_id
+where r.sys_service_id = 136355
+AND CAST('11:18:08' AS TIME) BETWEEN
+        CAST(DATEADD(MINUTE, -15, CAST(r.start_time_up AS DATETIME)) AS TIME)
+        AND
+        CAST(DATEADD(MINUTE, 30, CAST(r.end_time_up AS DATETIME)) AS TIME)
+order by r.id desc service_id = 136355
+15-09-2026 16:35:15
+Route Query Result Rows = 0
+15-09-2026 16:36:05
+RFID Processing RouteId = 0
+15-09-2026 16:36:09
+RFID Match Debug => RFID = 3509b12a, Matched = NO, Student = NULL, RouteName = , IsAtlTrackingDevice = True
+15-09-2026 16:36:12
+Route Name = 
+15-09-2026 16:36:14
+Message before fallback = NA
+15-09-2026 16:36:16
+Message still NA, fallback notification will be used.
+15-09-2026 16:39:51
+diff = 321.71966556 here
+15-09-2026 16:39:51
+ATL864180053273996,$GPRMC,054808,A,2835.1565,N,07703.6992,E,0.0,0,150926,,,*2B,#01111011000000,0.98,-70.00,3509B12A,37327.61,33,4.9,23,404,10,ca,f43eATLY
+15-09-2026 16:39:51
+inside the time checking section, route Id = 0
+15-09-2026 16:39:51
+after Convert.ToDateTime(gpsTime).Year, route Id = 0
+15-09-2026 16:39:51
+inside the session.RouteId == 0
+15-09-2026 16:39:52
+Route Query = 
+select top 1
+    r.Id,
+    r.start_time_up,
+    r.end_time_up,
+    u.school_lat,
+    u.school_lng,
+    r.route_name
+from atltracking.dbo.bs_route_master r
+inner join atltracking.dbo.tbl_users u
+    on u.id = r.sys_user_id
+where r.sys_service_id = 136355
+AND CAST('11:18:08' AS TIME) BETWEEN
+        CAST(DATEADD(MINUTE, -15, CAST(r.start_time_up AS DATETIME)) AS TIME)
+        AND
+        CAST(DATEADD(MINUTE, 30, CAST(r.end_time_up AS DATETIME)) AS TIME)
+order by r.id desc service_id = 136355
+15-09-2026 16:39:52
+Route Query Result Rows = 0
+15-09-2026 16:39:54
+RFID Processing RouteId = 0
+15-09-2026 16:39:55
+RFID Match Debug => RFID = 3509b12a, Matched = NO, Student = NULL, RouteName = , IsAtlTrackingDevice = True
+15-09-2026 16:39:56
+Route Name = 
+15-09-2026 16:39:56
+Message before fallback = NA
+15-09-2026 16:39:56
+Message still NA, fallback notification will be used.
+15-09-2026 16:49:47
+diff = 331.664569108333 here
+15-09-2026 16:49:47
+ATL864180053273996,$GPRMC,054808,A,2835.1565,N,07703.6992,E,0.0,0,150926,,,*2B,#01111011000000,0.98,-70.00,3509B12A,37327.61,33,4.9,23,404,10,ca,f43eATLY
+15-09-2026 16:49:47
+inside the time checking section, route Id = 0
+15-09-2026 16:49:47
+after Convert.ToDateTime(gpsTime).Year, route Id = 0
+15-09-2026 16:49:47
+inside the session.RouteId == 0
+15-09-2026 16:49:48
+Route Query = 
+select top 1
+    r.Id,
+    r.start_time_up,
+    r.end_time_up,
+    u.school_lat,
+    u.school_lng,
+    r.route_name
+from atltracking.dbo.bs_route_master r
+inner join atltracking.dbo.tbl_users u
+    on u.id = r.sys_user_id
+where r.sys_service_id = 136355
+AND CAST('11:18:08' AS TIME) BETWEEN
+        CAST(DATEADD(MINUTE, -15, CAST(r.start_time_up AS DATETIME)) AS TIME)
+        AND
+        CAST(DATEADD(MINUTE, 30, CAST(r.end_time_up AS DATETIME)) AS TIME)
+order by r.id desc service_id = 136355
+15-09-2026 16:49:48
+Route Query Result Rows = 0
+15-09-2026 16:49:50
+RFID Processing RouteId = 0
+15-09-2026 16:49:51
+RFID Match Debug => RFID = 3509b12a, Matched = NO, Student = NULL, RouteName = , IsAtlTrackingDevice = True
+15-09-2026 16:49:51
+Route Name = 
+15-09-2026 16:49:51
+Message before fallback = NA
+15-09-2026 16:49:51
+Message still NA, fallback notification will be used.

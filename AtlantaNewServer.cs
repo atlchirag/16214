@@ -124,7 +124,14 @@ namespace GPSTrackerListeners.AtlantaNew
 
 
                 //GPRMC Data
-                string gpsTime = General.GetGPSDateTime(fieldsArray[9], fieldsArray[1]).ToString("yyyy-MM-dd HH:mm:ss");
+                //string gpsTime = General.GetGPSDateTime(fieldsArray[9], fieldsArray[1]).ToString("yyyy-MM-dd HH:mm:ss");
+                DateTime gpsDateTime = General.GetGPSDateTime(fieldsArray[9], fieldsArray[1]);
+
+                string gpsTime = gpsDateTime.ToString("yyyy-MM-dd HH:mm:ss");
+
+                string sysProcTime = gpsDateTime.AddMinutes(330)
+                                                .ToString("yyyy-MM-dd HH:mm:ss");
+
                 // session.CurrentGPSTime = Convert.ToDateTime(gpsTime);
                 if (Convert.ToDateTime(gpsTime) == new DateTime())
                 {
@@ -318,6 +325,7 @@ namespace GPSTrackerListeners.AtlantaNew
                     string bs_route_students;
                     string bs_attendance;
                     string rf_punch_history;
+                    string msg_supscription;
                     if (userTable == "atltracking.dbo.tbl_users")
                     {
                         routemaster = "atltracking.dbo.bs_route_master";
@@ -325,6 +333,7 @@ namespace GPSTrackerListeners.AtlantaNew
                         bs_route_students = "atltracking.dbo.bs_route_students";
                         rf_punch_history = "atltracking.dbo.rf_punch_history ";
                         bs_attendance = "atltracking.dbo.bs_attendance";
+                        msg_supscription = "atltracking.dbo.bs_msg_subscription";
 
                     }
                     else
@@ -334,6 +343,7 @@ namespace GPSTrackerListeners.AtlantaNew
                         bs_route_students = "newtrack.dbo.bs_route_students";
                         bs_attendance = "newtrack.dbo.bs_attendance";
                         rf_punch_history = "newtrack.dbo.rf_punch_history ";
+                        msg_supscription = "newtrack.dbo.bs_msg_subscription";
 
 
                     }
@@ -357,6 +367,10 @@ from "+routemaster + @" r
 inner join " + userTable + @" u
     on u.id = r.sys_user_id
 where r.sys_service_id = " + session.ServiceId + @"
+AND CAST('" + currentRouteTime.ToString(@"hh\:mm\:ss") + @"' AS TIME) BETWEEN
+        CAST(DATEADD(MINUTE, -15, CAST(r.start_time_up AS DATETIME)) AS TIME)
+        AND
+        CAST(DATEADD(MINUTE, 30, CAST(r.end_time_up AS DATETIME)) AS TIME)
 order by r.id desc";
 //                        string query2 = @"
 //select top 1
@@ -412,7 +426,7 @@ select
 from "+ student_master_backup + @" s
 inner join "+ bs_route_students + @" rs
     on rs.student_id = s.Id
-inner join newtrack.dbo.bs_msg_subscription ms
+inner join "+msg_supscription+@" ms
     on s.id = ms.student_id
 where rs.route_id = " + session.RouteId;
 
@@ -525,7 +539,7 @@ where rs.route_id = " + session.RouteId;
                                                 queryAttn = @"insert into " +bs_attendance+@" (rf_id,date_,gps_time,attendance_type_id,route_id) 
 values ('" + rfId + "','" + DateTime.Today.ToString("yyyy-MM-dd") + "','" + gpsTime + "'," + PICK_DEBOARD + "," + session.RouteId + ")";
 
-                                                msg_query = "update newtrack.dbo.bs_msg_subscription set pick_D = 1 where id = " + matchedStudent.msg_id;
+                                                msg_query = "update "+ msg_supscription+" set pick_D = 1 where id = " + matchedStudent.msg_id;
 
                                                 matchedStudent.pick_D = 1;
                                             }
@@ -545,7 +559,7 @@ values ('" + rfId + "','" + DateTime.Today.ToString("yyyy-MM-dd") + "','" + gpsT
                                                 queryAttn = @"insert into " +bs_attendance+@" (rf_id,date_,gps_time,attendance_type_id,route_id) 
 values ('" + rfId + "','" + DateTime.Now.ToString("yyyy-MM-dd") + "','" + gpsTime + "'," + PICK_BOARD + "," + session.RouteId + ")";
 
-                                                msg_query = "update newtrack.dbo.bs_msg_subscription set pick_B = 1 where id = " + matchedStudent.msg_id;
+                                                msg_query = "update " + msg_supscription+" set pick_B = 1 where id = " + matchedStudent.msg_id;
 
                                                 matchedStudent.pick_B = 1;
                                             }
@@ -570,7 +584,7 @@ values ('" + rfId + "','" + DateTime.Now.ToString("yyyy-MM-dd") + "','" + gpsTim
                                                 queryAttn = @"insert into " +bs_attendance+@" (rf_id,date_,gps_time,attendance_type_id,route_id) 
 values ('" + rfId + "','" + DateTime.Now.ToString("yyyy-MM-dd") + "','" + gpsTime + "'," + DROP_BOARD + "," + session.RouteId + ")";
 
-                                                msg_query = "update newtrack.dbo.bs_msg_subscription set drop_B = 1 where id = " + matchedStudent.msg_id;
+                                                msg_query = "update " + msg_supscription +" set drop_B = 1 where id = " + matchedStudent.msg_id;
 
                                                 matchedStudent.drop_B = 1;
                                             }
@@ -590,7 +604,7 @@ values ('" + rfId + "','" + DateTime.Now.ToString("yyyy-MM-dd") + "','" + gpsTim
                                                 queryAttn = @"insert into " +bs_attendance+@"(rf_id,date_,gps_time,attendance_type_id,route_id) 
 values ('" + rfId + "','" + DateTime.Now.ToString("yyyy-MM-dd") + "','" + gpsTime + "'," + DROP_DEBOARD + "," + session.RouteId + ")";
 
-                                                msg_query = "update newtrack.dbo.bs_msg_subscription set drop_D = 1 where id = " + matchedStudent.msg_id;
+                                                msg_query = "update "+ msg_supscription+ " set drop_D = 1 where id = " + matchedStudent.msg_id;
 
                                                 matchedStudent.drop_D = 1;
                                             }
@@ -752,26 +766,52 @@ values ('" + rfId + "','" + DateTime.Now.ToString("yyyy-MM-dd") + "','" + gpsTim
 
                             if (student_id != 0)
                             {
-                                gen.DML(@"insert into " +rf_punch_history+@" 
-(rfid,sys_service_id,punch_gps_time,gps_latitude,gps_longitude,student_id) 
+                                gen.DML(@"insert into " + rf_punch_history + @" 
+(rfid, sys_service_id, punch_gps_time, gps_latitude, gps_longitude, student_id, sys_proc_time) 
 values 
-('" + rfId + "'," + session.ServiceId + ",'" + gpsTime + "','" + latitude + "','" + longitude + "'," + student_id + ")");
+('" + rfId + "', " + session.ServiceId + ", '" + gpsTime + "', '" + latitude + "', '" + longitude + "', " + student_id + ", '" + sysProcTime + "')");
+//                                gen.DML(@"insert into " +rf_punch_history+ @" 
+//(rfid,sys_service_id,punch_gps_time,gps_latitude,gps_longitude,student_id) 
+//values 
+//('" + rfId + "'," + session.ServiceId + ",'" + gpsTime + "','" + latitude + "','" + longitude + "'," + student_id + ")");
+
                             }
                             else
                             {
                                 if (!string.IsNullOrEmpty(session.ServiceId))
                                 {
-                                    gen.DML(@"insert into " +rf_punch_history+@" 
-(rfid,sys_service_id,punch_gps_time,gps_latitude,gps_longitude,student_id) 
+                                    //                                    gen.DML(@"insert into " +rf_punch_history+ @" 
+                                    //(rfid,sys_service_id,punch_gps_time,gps_latitude,gps_longitude,student_id, sys_proc_time) 
+                                    //values 
+                                    //('" + rfId + "'," + session.ServiceId + ",'" + gpsTime + "','" + latitude + "','" + longitude + "',(select top 1 id from " +student_master_backup +" where rf_id ='" + rfId + "'))");
+                                   
+                                    gen.DML(@"insert into " + rf_punch_history + @" 
+(rfid, sys_service_id, punch_gps_time, gps_latitude, gps_longitude, student_id, sys_proc_time) 
 values 
-('" + rfId + "'," + session.ServiceId + ",'" + gpsTime + "','" + latitude + "','" + longitude + "',(select top 1 id from newtrack.dbo.bs_student_master_backup where rf_id ='" + rfId + "'))");
+('" + rfId + "', " + session.ServiceId + ", '" + gpsTime + "', '" + latitude + "', '" + longitude + "', (select top 1 id from " + student_master_backup + @" where rf_id = '" + rfId + "'),'" + sysProcTime + "')");
                                 }
                                 else
                                 {
-                                    gen.DML(@"insert into " +rf_punch_history+@"  
-(rfid,sys_service_id,punch_gps_time,gps_latitude,gps_longitude,student_id) 
+                                    //                                    gen.DML(@"insert into " +rf_punch_history+@"  
+                                    //(rfid,sys_service_id,punch_gps_time,gps_latitude,gps_longitude,student_id) 
+                                    //values 
+                                    //('" + rfId + "',(select top 1 rm.sys_service_id from " +routemaster+@"  rm,  " +student_master_backup +@"  s,  " +bs_route_students+@"  rs where rs.route_id=rm.id and s.id = rs.student_id and s.rf_id ='" + rfId + "'),'" + gpsTime + "','" + latitude + "','" + longitude + "',(select top 1 id from " +student_master_backup +" where rf_id ='" + rfId + "'))");
+                                    gen.DML(@"insert into " + rf_punch_history + @"  
+(rfid, sys_service_id, punch_gps_time, gps_latitude, gps_longitude, student_id, sys_proc_time) 
 values 
-('" + rfId + "',(select top 1 rm.sys_service_id from " +routemaster+@"  rm,  " +student_master_backup +@"  s,  " +bs_route_students+@"  rs where rs.route_id=rm.id and s.id = rs.student_id and s.rf_id ='" + rfId + "'),'" + gpsTime + "','" + latitude + "','" + longitude + "',(select top 1 id from newtrack.dbo.bs_student_master_backup where rf_id ='" + rfId + "'))");
+('" + rfId + @"',
+(select top 1 rm.sys_service_id 
+ from " + routemaster + @" rm, " + student_master_backup + @" s, " + bs_route_students + @" rs 
+ where rs.route_id = rm.id 
+ and s.id = rs.student_id 
+ and s.rf_id = '" + rfId + @"'),
+'" + gpsTime + @"',
+'" + latitude + @"',
+'" + longitude + @"',
+(select top 1 id 
+ from " + student_master_backup + @" 
+ where rf_id = '" + rfId + @"'),
+'" + sysProcTime + @"')");
                                 }
                             }
                         }
@@ -780,10 +820,14 @@ values
                     {
                         General.WriteToLogFile(ex.Message, AppDomain.CurrentDomain.BaseDirectory, session.CurrentCommand + ".txt");
 
-                        gen.DML(@"insert into  " +rf_punch_history+@"  
-(rfid,sys_service_id,punch_gps_time,gps_latitude,gps_longitude) 
+                        //                        gen.DML(@"insert into  " +rf_punch_history+@"  
+                        //(rfid,sys_service_id,punch_gps_time,gps_latitude,gps_longitude) 
+                        //values 
+                        //('" + rfId + "'," + session.ServiceId + ",'" + gpsTime + "','" + latitude + "','" + longitude + "')");
+                        gen.DML(@"insert into " + rf_punch_history + @"  
+(rfid, sys_service_id, punch_gps_time, gps_latitude, gps_longitude, sys_proc_time) 
 values 
-('" + rfId + "'," + session.ServiceId + ",'" + gpsTime + "','" + latitude + "','" + longitude + "')");
+('" + rfId + "', " + session.ServiceId + ", '" + gpsTime + "', '" + latitude + "', '" + longitude + "', '" + sysProcTime + "')");
                     }
                 }
 

@@ -1,0 +1,47 @@
+01-09-2026 15:03:38
+diff = 463.625180103333 here
+01-09-2026 15:03:39
+ATL864180053264763,$GPRMC,015001,A,2835.6587,N,07704.4092,E,0.0,0,010926,,,*2D,#11111011000001,0.00,-70.00,34f1438a,22685.87,33,0.0,31,404,10,33a,5f75ATLi
+01-09-2026 15:03:39
+inside the time checking section, route Id = 0
+01-09-2026 15:03:40
+after Convert.ToDateTime(gpsTime).Year, route Id = 0
+01-09-2026 15:03:51
+inside the session.RouteId == 0
+01-09-2026 15:04:01
+Route Query = 
+select top 1
+    r.Id,
+    r.start_time_up,
+    r.end_time_up,
+    u.school_lat,
+    u.school_lng,
+    r.route_name
+from atltracking.dbo.bs_route_master r
+inner join atltracking.dbo.tbl_users u
+    on u.id = r.sys_user_id
+where r.sys_service_id = 136342
+order by r.id desc service_id = 136342
+01-09-2026 15:04:04
+Route Query Result Rows = 1
+01-09-2026 15:04:09
+RouteId = 4992, RouteName = R-22 DROP drop
+01-09-2026 15:04:14
+Student Query = 
+select 
+    s.id,
+    s.student_name,
+    s.rf_id,
+    s.mobile_no1,
+    ms.pick_B,
+    ms.pick_D,
+    ms.drop_B,
+    ms.drop_D,
+    rs.route_id,
+    ms.id as msg_id
+from atltracking.dbo.bs_student_master_backup s
+inner join atltracking.dbo.bs_route_students rs
+    on rs.student_id = s.Id
+inner join atltracking.dbo.bs_msg_subscription ms
+    on s.id = ms.student_id
+where rs.route_id = 4992

@@ -1,0 +1,55 @@
+03-09-2026 11:42:18
+diff = 250.954738571667 here
+03-09-2026 11:42:18
+ATL864180053262932,$GPRMC,020121,A,2835.1465,N,07703.7129,E,0.0,0,030926,,,*25,#11111011000001,0.00,-70.00,35D0185A,40553.99,33,3.4,23,404,10,ca,6082ATL$
+03-09-2026 11:42:19
+inside the time checking section, route Id = 0
+03-09-2026 11:42:33
+after Convert.ToDateTime(gpsTime).Year, route Id = 0
+03-09-2026 11:42:38
+inside the session.RouteId == 0
+03-09-2026 11:42:45
+Route Query = 
+select top 1
+    r.Id,
+    r.start_time_up,
+    r.end_time_up,
+    u.school_lat,
+    u.school_lng,
+    r.route_name
+from atltracking.dbo.bs_route_master r
+inner join atltracking.dbo.tbl_users u
+    on u.id = r.sys_user_id
+where r.sys_service_id = 136353
+and '07:31:21' between r.start_time_up and r.end_time_up
+order by r.id desc service_id = 136353
+03-09-2026 11:43:09
+Route Query Result Rows = 0
+03-09-2026 16:43:14
+diff = 551.878799881667 here
+03-09-2026 16:43:14
+ATL864180053262932,$GPRMC,020121,A,2835.1465,N,07703.7129,E,0.0,0,030926,,,*25,#11111011000001,0.00,-70.00,35D0185A,40553.99,33,3.4,23,404,10,ca,6082ATL$
+03-09-2026 16:43:14
+inside the time checking section, route Id = 0
+03-09-2026 16:43:14
+after Convert.ToDateTime(gpsTime).Year, route Id = 0
+03-09-2026 16:43:18
+inside the session.RouteId == 0
+03-09-2026 16:43:21
+Route Query = 
+select top 1
+    r.Id,
+    r.start_time_up,
+    r.end_time_up,
+    u.school_lat,
+    u.school_lng,
+    r.route_name
+from atltracking.dbo.bs_route_master r
+inner join atltracking.dbo.tbl_users u
+    on u.id = r.sys_user_id
+where r.sys_service_id = 136353
+AND CAST('07:31:21' AS TIME) BETWEEN
+        CAST(DATEADD(MINUTE, -15, CAST(r.start_time_up AS DATETIME)) AS TIME)
+        AND
+        CAST(DATEADD(MINUTE, 30, CAST(r.end_time_up AS DATETIME)) AS TIME)
+order by r.id desc service_id = 136353
