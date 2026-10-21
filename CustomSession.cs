@@ -51,6 +51,7 @@ namespace GPSTrackerListeners.AtlantaNew
 
         public string ServiceId { get; set; }
         public bool IsAtlTrackingDevice { get; set; }
+        public bool IsRfidEnabled { get; set; }
         public int RouteId { get; set; }
         public string PrevLatitude { get; set; }
         public string RouteName { get; set; }

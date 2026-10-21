@@ -305,7 +305,7 @@ namespace GPSTrackerListeners.AtlantaNew
                 // remove hidden control chars like STX/ETX and extra spaces
                 rfId = new string(rfId.Where(c => !char.IsControl(c)).ToArray()).Trim().ToLower();
 
-                if (!string.IsNullOrEmpty(rfId) && rfId != "0")
+                if (!string.IsNullOrEmpty(rfId) && rfId != "0" && session.IsRfidEnabled)
                 {
                     double diff = (DateTime.Now - Convert.ToDateTime(gpsTime).AddMinutes(session.UTCOffset)).TotalMinutes;
 

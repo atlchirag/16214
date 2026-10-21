@@ -36,6 +36,7 @@ namespace GPSTrackerListeners.AtlantaNew
             public int UTCOffset { get; set; }
             public string VehicleName { get; set; }
             public bool IsAtlTrackingDevice { get; set; }
+            public bool IsRfidEnabled { get; set; }
         }
 
 
@@ -413,7 +414,8 @@ namespace GPSTrackerListeners.AtlantaNew
             string imei = SqlSafe(IMEINumber);
             try
             {
-                string atlQuery = @"select top 1 s.id,s.sys_user_id,isnull(t.utc_offset,330) as utc_offset,s.veh_reg
+                string atlQuery = @"select top 1 s.id,s.sys_user_id,isnull(t.utc_offset,330) as utc_offset,s.veh_reg,
+                                           isnull(u.is_rfid,0) as is_rfid
                                     from tbl_devices d
                                     inner join tbl_services s on d.id=s.sys_device_id
                                     inner join tbl_users u on u.id=s.sys_user_id
@@ -429,7 +431,8 @@ namespace GPSTrackerListeners.AtlantaNew
                         UserId = Convert.ToInt32(row["sys_user_id"]),
                         UTCOffset = Convert.ToInt32(row["utc_offset"]),
                         VehicleName = Convert.ToString(row["veh_reg"]),
-                        IsAtlTrackingDevice = true
+                        IsAtlTrackingDevice = true,
+                        IsRfidEnabled = Convert.ToBoolean(row["is_rfid"])
                     };
                 }
 
@@ -453,7 +456,8 @@ namespace GPSTrackerListeners.AtlantaNew
                         UserId = Convert.ToInt32(row["sys_user_id"]),
                         UTCOffset = Convert.ToInt32(row["utc_offset"]),
                         VehicleName = Convert.ToString(row["veh_reg"]),
-                        IsAtlTrackingDevice = false
+                        IsAtlTrackingDevice = false,
+                        IsRfidEnabled = true
                     };
                 }
             }
@@ -919,6 +923,7 @@ namespace GPSTrackerListeners.AtlantaNew
                     {
                         session.ServiceId = serviceInfo.ServiceId;
                         session.IsAtlTrackingDevice = serviceInfo.IsAtlTrackingDevice;
+                        session.IsRfidEnabled = serviceInfo.IsRfidEnabled;
                         session.IMEI = requestInfo.Key;
 
                         if (session.UTCOffset == 0)
@@ -933,7 +938,8 @@ namespace GPSTrackerListeners.AtlantaNew
                                 ", UserId = " + session.UserId +
                                 ", VehicleName = " + session.VehicleName +
                                 ", UTCOffset = " + session.UTCOffset +
-                                ", IsAtlTrackingDevice = " + session.IsAtlTrackingDevice,
+                                ", IsAtlTrackingDevice = " + session.IsAtlTrackingDevice +
+                                ", IsRfidEnabled = " + session.IsRfidEnabled,
                                 m_FolderPath,
                                 "rfid_mapping_debug.txt"
                             );
